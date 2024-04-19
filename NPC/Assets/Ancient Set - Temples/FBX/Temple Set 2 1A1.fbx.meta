@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: f94e604b1f08d014e9ee199dacb1e597
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bowl 2A1
+    100002: Bowl 2A2
+    100004: Bowl 2A3
+    100006: Bowl 2A4
+    100008: Bowl 2A5
+    100010: Bowl 2A6
+    100012: Pedestal 2A1
+    100014: Pedestal 2A2
+    100016: Pedestal 2A3
+    100018: Pedestal Bowl 2A1
+    100020: Pedestal Bowl 2A2
+    100022: Pedestal Bowl 2A3
+    100024: Pedestal Bowl 2A4
+    100026: Temple Roof End 2A1
+    100028: Temple Roof End 2A2
+    100030: Temple Roof End 2A3
+    100032: Temple Roof Middle 2A1
+    100034: Temple Roof Middle 2A2
+    100036: Temple Roof Middle 2A3
+    100038: Temple Roof Middle Divider 2A1
+    100040: Temple Roof Middle Divider 2A2
+    100042: Temple Roof Middle Divider 2A3
+    100044: //RootNode
+    100046: Temple Wall 2A1
+    100048: Temple Wall 2A2
+    100050: Temple Wall 2B1
+    100052: Temple Wall 2B2
+    100054: Urn 2A1
+    100056: Urn 2A2
+    100058: Urn 2A3
+    100060: Urn 2A4
+    100062: Urn 2A5
+    100064: Urn 2A6
+    100066: Urn 2A7
+    100068: Urn 2A8
+    400000: Bowl 2A1
+    400002: Bowl 2A2
+    400004: Bowl 2A3
+    400006: Bowl 2A4
+    400008: Bowl 2A5
+    400010: Bowl 2A6
+    400012: Pedestal 2A1
+    400014: Pedestal 2A2
+    400016: Pedestal 2A3
+    400018: Pedestal Bowl 2A1
+    400020: Pedestal Bowl 2A2
+    400022: Pedestal Bowl 2A3
+    400024: Pedestal Bowl 2A4
+    400026: Temple Roof End 2A1
+    400028: Temple Roof End 2A2
+    400030: Temple Roof End 2A3
+    400032: Temple Roof Middle 2A1
+    400034: Temple Roof Middle 2A2
+    400036: Temple Roof Middle 2A3
+    400038: Temple Roof Middle Divider 2A1
+    400040: Temple Roof Middle Divider 2A2
+    400042: Temple Roof Middle Divider 2A3
+    400044: //RootNode
+    400046: Temple Wall 2A1
+    400048: Temple Wall 2A2
+    400050: Temple Wall 2B1
+    400052: Temple Wall 2B2
+    400054: Urn 2A1
+    400056: Urn 2A2
+    400058: Urn 2A3
+    400060: Urn 2A4
+    400062: Urn 2A5
+    400064: Urn 2A6
+    400066: Urn 2A7
+    400068: Urn 2A8
+    2100000: Trim and Walls 1A1
+    2100002: Temple Roof 2B1
+    2300000: Bowl 2A1
+    2300002: Bowl 2A2
+    2300004: Bowl 2A3
+    2300006: Bowl 2A4
+    2300008: Bowl 2A5
+    2300010: Bowl 2A6
+    2300012: Pedestal 2A1
+    2300014: Pedestal 2A2
+    2300016: Pedestal 2A3
+    2300018: Pedestal Bowl 2A1
+    2300020: Pedestal Bowl 2A2
+    2300022: Pedestal Bowl 2A3
+    2300024: Pedestal Bowl 2A4
+    2300026: Temple Roof End 2A1
+    2300028: Temple Roof End 2A2
+    2300030: Temple Roof End 2A3
+    2300032: Temple Roof Middle 2A1
+    2300034: Temple Roof Middle 2A2
+    2300036: Temple Roof Middle 2A3
+    2300038: Temple Roof Middle Divider 2A1
+    2300040: Temple Roof Middle Divider 2A2
+    2300042: Temple Roof Middle Divider 2A3
+    2300044: Temple Wall 2A1
+    2300046: Temple Wall 2A2
+    2300048: Temple Wall 2B1
+    2300050: Temple Wall 2B2
+    2300052: Urn 2A1
+    2300054: Urn 2A2
+    2300056: Urn 2A3
+    2300058: Urn 2A4
+    2300060: Urn 2A5
+    2300062: Urn 2A6
+    2300064: Urn 2A7
+    2300066: Urn 2A8
+    3300000: Bowl 2A1
+    3300002: Bowl 2A2
+    3300004: Bowl 2A3
+    3300006: Bowl 2A4
+    3300008: Bowl 2A5
+    3300010: Bowl 2A6
+    3300012: Pedestal 2A1
+    3300014: Pedestal 2A2
+    3300016: Pedestal 2A3
+    3300018: Pedestal Bowl 2A1
+    3300020: Pedestal Bowl 2A2
+    3300022: Pedestal Bowl 2A3
+    3300024: Pedestal Bowl 2A4
+    3300026: Temple Roof End 2A1
+    3300028: Temple Roof End 2A2
+    3300030: Temple Roof End 2A3
+    3300032: Temple Roof Middle 2A1
+    3300034: Temple Roof Middle 2A2
+    3300036: Temple Roof Middle 2A3
+    3300038: Temple Roof Middle Divider 2A1
+    3300040: Temple Roof Middle Divider 2A2
+    3300042: Temple Roof Middle Divider 2A3
+    3300044: Temple Wall 2A1
+    3300046: Temple Wall 2A2
+    3300048: Temple Wall 2B1
+    3300050: Temple Wall 2B2
+    3300052: Urn 2A1
+    3300054: Urn 2A2
+    3300056: Urn 2A3
+    3300058: Urn 2A4
+    3300060: Urn 2A5
+    3300062: Urn 2A6
+    3300064: Urn 2A7
+    3300066: Urn 2A8
+    4300000: Temple Roof End 2A1
+    4300002: Temple Roof Middle 2A1
+    4300004: Temple Roof Middle Divider 2A1
+    4300006: Temple Roof End 2A2
+    4300008: Temple Roof Middle 2A2
+    4300010: Temple Roof Middle Divider 2A2
+    4300012: Temple Roof End 2A3
+    4300014: Temple Roof Middle 2A3
+    4300016: Temple Roof Middle Divider 2A3
+    4300018: Temple Wall 2B2
+    4300020: Pedestal 2A3
+    4300022: Pedestal 2A1
+    4300024: Pedestal 2A2
+    4300026: Bowl 2A3
+    4300028: Pedestal Bowl 2A1
+    4300030: Pedestal Bowl 2A2
+    4300032: Bowl 2A1
+    4300034: Bowl 2A6
+    4300036: Bowl 2A5
+    4300038: Temple Wall 2A2
+    4300040: Pedestal Bowl 2A3
+    4300042: Pedestal Bowl 2A4
+    4300044: Bowl 2A4
+    4300046: Bowl 2A2
+    4300048: Urn 2A3
+    4300050: Urn 2A5
+    4300052: Urn 2A4
+    4300054: Urn 2A7
+    4300056: Urn 2A8
+    4300058: Urn 2A2
+    4300060: Urn 2A6
+    4300062: Urn 2A1
+    4300064: Temple Wall 2B1
+    4300066: Temple Wall 2A1
+    6400000: Bowl 2A1
+    6400002: Bowl 2A2
+    6400004: Bowl 2A3
+    6400006: Bowl 2A4
+    6400008: Bowl 2A5
+    6400010: Bowl 2A6
+    6400012: Pedestal 2A1
+    6400014: Pedestal 2A2
+    6400016: Pedestal 2A3
+    6400018: Pedestal Bowl 2A1
+    6400020: Pedestal Bowl 2A2
+    6400022: Pedestal Bowl 2A3
+    6400024: Pedestal Bowl 2A4
+    6400026: Temple Roof End 2A1
+    6400028: Temple Roof End 2A2
+    6400030: Temple Roof End 2A3
+    6400032: Temple Roof Middle 2A1
+    6400034: Temple Roof Middle 2A2
+    6400036: Temple Roof Middle 2A3
+    6400038: Temple Roof Middle Divider 2A1
+    6400040: Temple Roof Middle Divider 2A2
+    6400042: Temple Roof Middle Divider 2A3
+    6400044: Temple Wall 2A1
+    6400046: Temple Wall 2A2
+    6400048: Temple Wall 2B1
+    6400050: Temple Wall 2B2
+    6400052: Urn 2A1
+    6400054: Urn 2A2
+    6400056: Urn 2A3
+    6400058: Urn 2A4
+    6400060: Urn 2A5
+    6400062: Urn 2A6
+    6400064: Urn 2A7
+    6400066: Urn 2A8
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Temple Roof 2B1
+    second: {fileID: 2100000, guid: 92321267c53c4904993f6fd8eb82ff81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trim and Walls 1A1
+    second: {fileID: 2100000, guid: ca0610c7bf2b5794ab8501338cabc538, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

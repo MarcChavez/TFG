@@ -14,6 +14,7 @@ public class followAI : MonoBehaviour
 
     private void Awake() {
         FindObjectOfType<PlayerInteract>().onEnterRange.AddListener(dejarDeSeguir);
+        FindObjectOfType<PlayerInteract>().onExitRange.AddListener(vuelveASeguir);
     }
     
     private void Start() {
@@ -41,9 +42,11 @@ public class followAI : MonoBehaviour
     }
 
     private void dejarDeSeguir() {
-        ai.destination = transform.position;
-        dest = ai.destination;
         siguiendo = false;
+    }
+
+    private void vuelveASeguir() {
+        siguiendo = true;
     }
 
 }

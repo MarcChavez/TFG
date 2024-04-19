@@ -1035,6 +1035,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.XR.Oculus.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
       <Private>False</Private>
@@ -1127,6 +1131,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.XR.Oculus">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1168,6 +1176,8 @@
     <ProjectReference Include="Assembly-CSharp.csproj" />
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj" />
     <ProjectReference Include="Unity.XR.Management.Samples.csproj" />
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

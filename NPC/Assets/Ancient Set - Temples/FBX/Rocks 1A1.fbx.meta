@@ -1,0 +1,459 @@
+fileFormatVersion: 2
+guid: cab763a7fc0c9b943ae2c55b096d5a03
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: LOD 1
+    100002: LOD 1.001
+    100004: LOD 1.002
+    100006: LOD 1.003
+    100008: LOD 1.004
+    100010: LOD 1.005
+    100012: LOD 1.006
+    100014: LOD 1.007
+    100016: LOD 1.008
+    100018: LOD 1.009
+    100020: LOD 1.010
+    100022: LOD 1.011
+    100024: LOD 1.012
+    100026: LOD 1.013
+    100028: LOD 1.014
+    100030: LOD 1.015
+    100032: LOD 1.016
+    100034: LOD 1.017
+    100036: LOD 1.018
+    100038: LOD 1.019
+    100040: LOD 2
+    100042: LOD 2.001
+    100044: LOD 2.002
+    100046: LOD 2.003
+    100048: LOD 2.004
+    100050: LOD 2.005
+    100052: LOD 2.006
+    100054: LOD 2.007
+    100056: LOD 2.008
+    100058: LOD 2.009
+    100060: LOD 2.010
+    100062: LOD 2.011
+    100064: LOD 2.012
+    100066: LOD 2.013
+    100068: LOD 2.014
+    100070: LOD 2.015
+    100072: LOD 2.016
+    100074: LOD 2.017
+    100076: LOD 2.018
+    100078: LOD 2.019
+    100080: Rock 1A1
+    100082: Rock 1A2
+    100084: Rock 1A3
+    100086: Rock 1A4
+    100088: Rock 1A5
+    100090: Rock 1B1
+    100092: Rock 1B2
+    100094: Rock 1B3
+    100096: Rock 1B4
+    100098: Rock 1B5
+    100100: Rock 1C1
+    100102: Rock 1C2
+    100104: Rock 1C3
+    100106: Rock 1C4
+    100108: Rock 1C5
+    100110: Rock 1D1
+    100112: Rock 1D2
+    100114: Rock 1D3
+    100116: Rock 1D4
+    100118: Rock 1D5
+    100120: //RootNode
+    400000: LOD 1
+    400002: LOD 1.001
+    400004: LOD 1.002
+    400006: LOD 1.003
+    400008: LOD 1.004
+    400010: LOD 1.005
+    400012: LOD 1.006
+    400014: LOD 1.007
+    400016: LOD 1.008
+    400018: LOD 1.009
+    400020: LOD 1.010
+    400022: LOD 1.011
+    400024: LOD 1.012
+    400026: LOD 1.013
+    400028: LOD 1.014
+    400030: LOD 1.015
+    400032: LOD 1.016
+    400034: LOD 1.017
+    400036: LOD 1.018
+    400038: LOD 1.019
+    400040: LOD 2
+    400042: LOD 2.001
+    400044: LOD 2.002
+    400046: LOD 2.003
+    400048: LOD 2.004
+    400050: LOD 2.005
+    400052: LOD 2.006
+    400054: LOD 2.007
+    400056: LOD 2.008
+    400058: LOD 2.009
+    400060: LOD 2.010
+    400062: LOD 2.011
+    400064: LOD 2.012
+    400066: LOD 2.013
+    400068: LOD 2.014
+    400070: LOD 2.015
+    400072: LOD 2.016
+    400074: LOD 2.017
+    400076: LOD 2.018
+    400078: LOD 2.019
+    400080: Rock 1A1
+    400082: Rock 1A2
+    400084: Rock 1A3
+    400086: Rock 1A4
+    400088: Rock 1A5
+    400090: Rock 1B1
+    400092: Rock 1B2
+    400094: Rock 1B3
+    400096: Rock 1B4
+    400098: Rock 1B5
+    400100: Rock 1C1
+    400102: Rock 1C2
+    400104: Rock 1C3
+    400106: Rock 1C4
+    400108: Rock 1C5
+    400110: Rock 1D1
+    400112: Rock 1D2
+    400114: Rock 1D3
+    400116: Rock 1D4
+    400118: Rock 1D5
+    400120: //RootNode
+    2100000: Prime Rocks 1A1
+    2300000: LOD 1
+    2300002: LOD 1.001
+    2300004: LOD 1.002
+    2300006: LOD 1.003
+    2300008: LOD 1.004
+    2300010: LOD 1.005
+    2300012: LOD 1.006
+    2300014: LOD 1.007
+    2300016: LOD 1.008
+    2300018: LOD 1.009
+    2300020: LOD 1.010
+    2300022: LOD 1.011
+    2300024: LOD 1.012
+    2300026: LOD 1.013
+    2300028: LOD 1.014
+    2300030: LOD 1.015
+    2300032: LOD 1.016
+    2300034: LOD 1.017
+    2300036: LOD 1.018
+    2300038: LOD 1.019
+    2300040: LOD 2
+    2300042: LOD 2.001
+    2300044: LOD 2.002
+    2300046: LOD 2.003
+    2300048: LOD 2.004
+    2300050: LOD 2.005
+    2300052: LOD 2.006
+    2300054: LOD 2.007
+    2300056: LOD 2.008
+    2300058: LOD 2.009
+    2300060: LOD 2.010
+    2300062: LOD 2.011
+    2300064: LOD 2.012
+    2300066: LOD 2.013
+    2300068: LOD 2.014
+    2300070: LOD 2.015
+    2300072: LOD 2.016
+    2300074: LOD 2.017
+    2300076: LOD 2.018
+    2300078: LOD 2.019
+    2300080: Rock 1A1
+    2300082: Rock 1A2
+    2300084: Rock 1A3
+    2300086: Rock 1A4
+    2300088: Rock 1A5
+    2300090: Rock 1B1
+    2300092: Rock 1B2
+    2300094: Rock 1B3
+    2300096: Rock 1B4
+    2300098: Rock 1B5
+    2300100: Rock 1C1
+    2300102: Rock 1C2
+    2300104: Rock 1C3
+    2300106: Rock 1C4
+    2300108: Rock 1C5
+    2300110: Rock 1D1
+    2300112: Rock 1D2
+    2300114: Rock 1D3
+    2300116: Rock 1D4
+    2300118: Rock 1D5
+    3300000: LOD 1
+    3300002: LOD 1.001
+    3300004: LOD 1.002
+    3300006: LOD 1.003
+    3300008: LOD 1.004
+    3300010: LOD 1.005
+    3300012: LOD 1.006
+    3300014: LOD 1.007
+    3300016: LOD 1.008
+    3300018: LOD 1.009
+    3300020: LOD 1.010
+    3300022: LOD 1.011
+    3300024: LOD 1.012
+    3300026: LOD 1.013
+    3300028: LOD 1.014
+    3300030: LOD 1.015
+    3300032: LOD 1.016
+    3300034: LOD 1.017
+    3300036: LOD 1.018
+    3300038: LOD 1.019
+    3300040: LOD 2
+    3300042: LOD 2.001
+    3300044: LOD 2.002
+    3300046: LOD 2.003
+    3300048: LOD 2.004
+    3300050: LOD 2.005
+    3300052: LOD 2.006
+    3300054: LOD 2.007
+    3300056: LOD 2.008
+    3300058: LOD 2.009
+    3300060: LOD 2.010
+    3300062: LOD 2.011
+    3300064: LOD 2.012
+    3300066: LOD 2.013
+    3300068: LOD 2.014
+    3300070: LOD 2.015
+    3300072: LOD 2.016
+    3300074: LOD 2.017
+    3300076: LOD 2.018
+    3300078: LOD 2.019
+    3300080: Rock 1A1
+    3300082: Rock 1A2
+    3300084: Rock 1A3
+    3300086: Rock 1A4
+    3300088: Rock 1A5
+    3300090: Rock 1B1
+    3300092: Rock 1B2
+    3300094: Rock 1B3
+    3300096: Rock 1B4
+    3300098: Rock 1B5
+    3300100: Rock 1C1
+    3300102: Rock 1C2
+    3300104: Rock 1C3
+    3300106: Rock 1C4
+    3300108: Rock 1C5
+    3300110: Rock 1D1
+    3300112: Rock 1D2
+    3300114: Rock 1D3
+    3300116: Rock 1D4
+    3300118: Rock 1D5
+    4300000: Rock 1B1
+    4300002: Rock 1A1
+    4300004: Rock 1C1
+    4300006: Rock 1D1
+    4300008: Rock 1B2
+    4300010: Rock 1A2
+    4300012: Rock 1C2
+    4300014: Rock 1D2
+    4300016: Rock 1B3
+    4300018: Rock 1A3
+    4300020: Rock 1C3
+    4300022: Rock 1D3
+    4300024: Rock 1B4
+    4300026: Rock 1A4
+    4300028: Rock 1C4
+    4300030: Rock 1D4
+    4300032: Rock 1B5
+    4300034: Rock 1A5
+    4300036: Rock 1C5
+    4300038: Rock 1D5
+    4300040: LOD 1
+    4300042: LOD 2
+    4300044: LOD 2.001
+    4300046: LOD 2.002
+    4300048: LOD 2.003
+    4300050: LOD 2.004
+    4300052: LOD 2.005
+    4300054: LOD 2.006
+    4300056: LOD 2.007
+    4300058: LOD 2.008
+    4300060: LOD 2.009
+    4300062: LOD 2.010
+    4300064: LOD 2.011
+    4300066: LOD 2.012
+    4300068: LOD 2.013
+    4300070: LOD 2.014
+    4300072: LOD 2.015
+    4300074: LOD 2.016
+    4300076: LOD 2.017
+    4300078: LOD 2.018
+    4300080: LOD 2.019
+    4300082: LOD 1.001
+    4300084: LOD 1.002
+    4300086: LOD 1.003
+    4300088: LOD 1.004
+    4300090: LOD 1.005
+    4300092: LOD 1.006
+    4300094: LOD 1.007
+    4300096: LOD 1.008
+    4300098: LOD 1.009
+    4300100: LOD 1.010
+    4300102: LOD 1.011
+    4300104: LOD 1.012
+    4300106: LOD 1.013
+    4300108: LOD 1.014
+    4300110: LOD 1.015
+    4300112: LOD 1.016
+    4300114: LOD 1.017
+    4300116: LOD 1.018
+    4300118: LOD 1.019
+    6400000: LOD 1
+    6400002: LOD 1.001
+    6400004: LOD 1.002
+    6400006: LOD 1.003
+    6400008: LOD 1.004
+    6400010: LOD 1.005
+    6400012: LOD 1.006
+    6400014: LOD 1.007
+    6400016: LOD 1.008
+    6400018: LOD 1.009
+    6400020: LOD 1.010
+    6400022: LOD 1.011
+    6400024: LOD 1.012
+    6400026: LOD 1.013
+    6400028: LOD 1.014
+    6400030: LOD 1.015
+    6400032: LOD 1.016
+    6400034: LOD 1.017
+    6400036: LOD 1.018
+    6400038: LOD 1.019
+    6400040: LOD 2
+    6400042: LOD 2.001
+    6400044: LOD 2.002
+    6400046: LOD 2.003
+    6400048: LOD 2.004
+    6400050: LOD 2.005
+    6400052: LOD 2.006
+    6400054: LOD 2.007
+    6400056: LOD 2.008
+    6400058: LOD 2.009
+    6400060: LOD 2.010
+    6400062: LOD 2.011
+    6400064: LOD 2.012
+    6400066: LOD 2.013
+    6400068: LOD 2.014
+    6400070: LOD 2.015
+    6400072: LOD 2.016
+    6400074: LOD 2.017
+    6400076: LOD 2.018
+    6400078: LOD 2.019
+    6400080: Rock 1A1
+    6400082: Rock 1A2
+    6400084: Rock 1A3
+    6400086: Rock 1A4
+    6400088: Rock 1A5
+    6400090: Rock 1B1
+    6400092: Rock 1B2
+    6400094: Rock 1B3
+    6400096: Rock 1B4
+    6400098: Rock 1B5
+    6400100: Rock 1C1
+    6400102: Rock 1C2
+    6400104: Rock 1C3
+    6400106: Rock 1C4
+    6400108: Rock 1C5
+    6400110: Rock 1D1
+    6400112: Rock 1D2
+    6400114: Rock 1D3
+    6400116: Rock 1D4
+    6400118: Rock 1D5
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Prime Rocks 1A1
+    second: {fileID: 2100000, guid: 01cb5e51e80ef934086a8c79e9e072e1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

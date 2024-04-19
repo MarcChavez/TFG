@@ -1,0 +1,315 @@
+fileFormatVersion: 2
+guid: 4335731531781244e8ae1a0688d36e02
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Stone Block 1A1
+    100002: Stone Block 1A2
+    100004: Stone Block 1A3
+    100006: Stone Block 1A4
+    100008: Stone Block Angled 45 1A1
+    100010: Stone Block Angled 45 1A2
+    100012: Stone Block Angled 45 1A3
+    100014: Stone Block Angled 45 1A4
+    100016: Stone Block Angled 90 1A1
+    100018: Stone Block Angled 90 1A2
+    100020: Stone Block Angled 90 1A3
+    100022: Stone Block Angled 90 1A4
+    100024: Stones Angled 180 1A1
+    100026: Stones Angled 180 1A2
+    100028: Stones Angled 180 1B1
+    100030: Stones Angled 180 1B2
+    100032: Stones Angled 180 1C1
+    100034: Stones Angled 180 1C2
+    100036: Stones Angled 45 1A1
+    100038: Stones Angled 45 1A2
+    100040: Stones Angled 45 1B1
+    100042: Stones Angled 45 1B2
+    100044: Stones Angled 45 1C1
+    100046: Stones Angled 45 1C2
+    100048: Stones Angled 90 1A1
+    100050: Stones Angled 90 1A2
+    100052: Stones Angled 90 1B1
+    100054: Stones Angled 90 1B2
+    100056: Stones Angled 90 1C1
+    100058: Stones Angled 90 1C2
+    100060: //RootNode
+    100062: Stones Straight 1A1
+    100064: Stones Straight 1A2
+    100066: Stones Straight 1B1
+    100068: Stones Straight 1B2
+    100070: Stones Straight 1C1
+    100072: Stones Straight 1C2
+    400000: Stone Block 1A1
+    400002: Stone Block 1A2
+    400004: Stone Block 1A3
+    400006: Stone Block 1A4
+    400008: Stone Block Angled 45 1A1
+    400010: Stone Block Angled 45 1A2
+    400012: Stone Block Angled 45 1A3
+    400014: Stone Block Angled 45 1A4
+    400016: Stone Block Angled 90 1A1
+    400018: Stone Block Angled 90 1A2
+    400020: Stone Block Angled 90 1A3
+    400022: Stone Block Angled 90 1A4
+    400024: Stones Angled 180 1A1
+    400026: Stones Angled 180 1A2
+    400028: Stones Angled 180 1B1
+    400030: Stones Angled 180 1B2
+    400032: Stones Angled 180 1C1
+    400034: Stones Angled 180 1C2
+    400036: Stones Angled 45 1A1
+    400038: Stones Angled 45 1A2
+    400040: Stones Angled 45 1B1
+    400042: Stones Angled 45 1B2
+    400044: Stones Angled 45 1C1
+    400046: Stones Angled 45 1C2
+    400048: Stones Angled 90 1A1
+    400050: Stones Angled 90 1A2
+    400052: Stones Angled 90 1B1
+    400054: Stones Angled 90 1B2
+    400056: Stones Angled 90 1C1
+    400058: Stones Angled 90 1C2
+    400060: //RootNode
+    400062: Stones Straight 1A1
+    400064: Stones Straight 1A2
+    400066: Stones Straight 1B1
+    400068: Stones Straight 1B2
+    400070: Stones Straight 1C1
+    400072: Stones Straight 1C2
+    2100000: Stone Blocks 3A1
+    2300000: Stone Block 1A1
+    2300002: Stone Block 1A2
+    2300004: Stone Block 1A3
+    2300006: Stone Block 1A4
+    2300008: Stone Block Angled 45 1A1
+    2300010: Stone Block Angled 45 1A2
+    2300012: Stone Block Angled 45 1A3
+    2300014: Stone Block Angled 45 1A4
+    2300016: Stone Block Angled 90 1A1
+    2300018: Stone Block Angled 90 1A2
+    2300020: Stone Block Angled 90 1A3
+    2300022: Stone Block Angled 90 1A4
+    2300024: Stones Angled 180 1A1
+    2300026: Stones Angled 180 1A2
+    2300028: Stones Angled 180 1B1
+    2300030: Stones Angled 180 1B2
+    2300032: Stones Angled 180 1C1
+    2300034: Stones Angled 180 1C2
+    2300036: Stones Angled 45 1A1
+    2300038: Stones Angled 45 1A2
+    2300040: Stones Angled 45 1B1
+    2300042: Stones Angled 45 1B2
+    2300044: Stones Angled 45 1C1
+    2300046: Stones Angled 45 1C2
+    2300048: Stones Angled 90 1A1
+    2300050: Stones Angled 90 1A2
+    2300052: Stones Angled 90 1B1
+    2300054: Stones Angled 90 1B2
+    2300056: Stones Angled 90 1C1
+    2300058: Stones Angled 90 1C2
+    2300060: Stones Straight 1A1
+    2300062: Stones Straight 1A2
+    2300064: Stones Straight 1B1
+    2300066: Stones Straight 1B2
+    2300068: Stones Straight 1C1
+    2300070: Stones Straight 1C2
+    3300000: Stone Block 1A1
+    3300002: Stone Block 1A2
+    3300004: Stone Block 1A3
+    3300006: Stone Block 1A4
+    3300008: Stone Block Angled 45 1A1
+    3300010: Stone Block Angled 45 1A2
+    3300012: Stone Block Angled 45 1A3
+    3300014: Stone Block Angled 45 1A4
+    3300016: Stone Block Angled 90 1A1
+    3300018: Stone Block Angled 90 1A2
+    3300020: Stone Block Angled 90 1A3
+    3300022: Stone Block Angled 90 1A4
+    3300024: Stones Angled 180 1A1
+    3300026: Stones Angled 180 1A2
+    3300028: Stones Angled 180 1B1
+    3300030: Stones Angled 180 1B2
+    3300032: Stones Angled 180 1C1
+    3300034: Stones Angled 180 1C2
+    3300036: Stones Angled 45 1A1
+    3300038: Stones Angled 45 1A2
+    3300040: Stones Angled 45 1B1
+    3300042: Stones Angled 45 1B2
+    3300044: Stones Angled 45 1C1
+    3300046: Stones Angled 45 1C2
+    3300048: Stones Angled 90 1A1
+    3300050: Stones Angled 90 1A2
+    3300052: Stones Angled 90 1B1
+    3300054: Stones Angled 90 1B2
+    3300056: Stones Angled 90 1C1
+    3300058: Stones Angled 90 1C2
+    3300060: Stones Straight 1A1
+    3300062: Stones Straight 1A2
+    3300064: Stones Straight 1B1
+    3300066: Stones Straight 1B2
+    3300068: Stones Straight 1C1
+    3300070: Stones Straight 1C2
+    4300000: Stone Block 1A2
+    4300002: Stones Straight 1A1
+    4300004: Stones Straight 1A2
+    4300006: Stones Straight 1B2
+    4300008: Stones Straight 1C2
+    4300010: Stones Straight 1C1
+    4300012: Stones Straight 1B1
+    4300014: Stone Block 1A1
+    4300016: Stone Block 1A4
+    4300018: Stone Block 1A3
+    4300020: Stone Block Angled 45 1A2
+    4300022: Stones Angled 45 1A1
+    4300024: Stones Angled 45 1A2
+    4300026: Stones Angled 45 1B2
+    4300028: Stones Angled 45 1C2
+    4300030: Stones Angled 45 1C1
+    4300032: Stones Angled 45 1B1
+    4300034: Stone Block Angled 45 1A1
+    4300036: Stone Block Angled 45 1A4
+    4300038: Stone Block Angled 45 1A3
+    4300040: Stone Block Angled 90 1A2
+    4300042: Stones Angled 90 1A1
+    4300044: Stones Angled 90 1A2
+    4300046: Stones Angled 90 1B2
+    4300048: Stones Angled 90 1C2
+    4300050: Stones Angled 90 1C1
+    4300052: Stones Angled 90 1B1
+    4300054: Stone Block Angled 90 1A1
+    4300056: Stone Block Angled 90 1A4
+    4300058: Stone Block Angled 90 1A3
+    4300060: Stones Angled 180 1A1
+    4300062: Stones Angled 180 1A2
+    4300064: Stones Angled 180 1B2
+    4300066: Stones Angled 180 1C2
+    4300068: Stones Angled 180 1C1
+    4300070: Stones Angled 180 1B1
+    6400000: Stone Block 1A1
+    6400002: Stone Block 1A2
+    6400004: Stone Block 1A3
+    6400006: Stone Block 1A4
+    6400008: Stone Block Angled 45 1A1
+    6400010: Stone Block Angled 45 1A2
+    6400012: Stone Block Angled 45 1A3
+    6400014: Stone Block Angled 45 1A4
+    6400016: Stone Block Angled 90 1A1
+    6400018: Stone Block Angled 90 1A2
+    6400020: Stone Block Angled 90 1A3
+    6400022: Stone Block Angled 90 1A4
+    6400024: Stones Angled 180 1A1
+    6400026: Stones Angled 180 1A2
+    6400028: Stones Angled 180 1B1
+    6400030: Stones Angled 180 1B2
+    6400032: Stones Angled 180 1C1
+    6400034: Stones Angled 180 1C2
+    6400036: Stones Angled 45 1A1
+    6400038: Stones Angled 45 1A2
+    6400040: Stones Angled 45 1B1
+    6400042: Stones Angled 45 1B2
+    6400044: Stones Angled 45 1C1
+    6400046: Stones Angled 45 1C2
+    6400048: Stones Angled 90 1A1
+    6400050: Stones Angled 90 1A2
+    6400052: Stones Angled 90 1B1
+    6400054: Stones Angled 90 1B2
+    6400056: Stones Angled 90 1C1
+    6400058: Stones Angled 90 1C2
+    6400060: Stones Straight 1A1
+    6400062: Stones Straight 1A2
+    6400064: Stones Straight 1B1
+    6400066: Stones Straight 1B2
+    6400068: Stones Straight 1C1
+    6400070: Stones Straight 1C2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone Blocks 3A1
+    second: {fileID: 2100000, guid: f8aedfb854f5616448cdec5258340dab, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

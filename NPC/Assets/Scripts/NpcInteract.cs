@@ -37,6 +37,15 @@ public class NpcInteract : MonoBehaviour
         objeto1 = player;
         lookingAtCharacter = true;
         animator.SetTrigger("Nod");
+        animator.ResetTrigger("Idle");
+    }
+
+    public void StopInteractWithPlayer(){
+        objeto1 = null;
+        phone.SetActive(false);
+        lookingAtCharacter = false;
+        animator.SetTrigger("Idle");
+        animator.ResetTrigger("Nod");
     }
 
 }

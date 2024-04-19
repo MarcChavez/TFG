@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 public class PlayerInteract : MonoBehaviour
 {
 
@@ -10,6 +11,21 @@ public class PlayerInteract : MonoBehaviour
     public UnityEvent onEnterRange;
     public UnityEvent onExitRange;
     public Collider collider1 = null;
+    private bool intercated = false;
+
+    public InputActionReference interactWithNPC = null;
+    
+    private void Awake() {
+        interactWithNPC.action.started += NPcInteract;
+    }
+
+    private void OnDestroy() {
+        interactWithNPC.action.started -= NPcInteract;
+    }
+
+    private void NPcInteract(InputAction.CallbackContext callbackContext) {
+        intercated = !intercated;
+    }
 
 
     void Update()
@@ -49,9 +65,13 @@ public class PlayerInteract : MonoBehaviour
     }
 
     private void NPCLogic(NpcInteract npcInteract, Collider collider){
-            if (Input.GetKeyDown(KeyCode.E)){
+            if (intercated){
                 onEnterRange.Invoke();
                 npcInteract.interactWithPlayer(transform);
+            }
+            else {
+                onExitRange.Invoke();
+                npcInteract.StopInteractWithPlayer();
             }   
     }
 

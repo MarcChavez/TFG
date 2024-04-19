@@ -2471,7 +2471,7 @@
                     "name": "",
                     "id": "fea81b99-07f5-426a-beba-5e0832c14855",
                     "path": "<TouchscreenGestureInputController>/tapStartPosition",
-                    "interactions": "",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "",
                     "action": "Tap Start Position",
@@ -2596,6 +2596,114 @@
                     "processors": "",
                     "groups": "",
                     "action": "Pinch Gap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "TFG",
+            "id": "3fafa466-18b5-49a6-8280-49a003b40841",
+            "actions": [
+                {
+                    "name": "AppearStick",
+                    "type": "Button",
+                    "id": "03cfd84f-29a3-463e-bdbb-010f82505cf2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TakePhoto",
+                    "type": "Button",
+                    "id": "f1bc5a15-4841-47c2-b7f3-c1609a05d080",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SelfieMode",
+                    "type": "Button",
+                    "id": "f6ba1313-6c08-49cc-9919-256598ec09b4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "InteractNPC",
+                    "type": "Button",
+                    "id": "6d47c202-6442-42bf-af4d-958d419a7fb4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NPCTakeSelfie",
+                    "type": "Button",
+                    "id": "3fa480f5-19ea-4ea0-b4d0-305e26809823",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f5ac30c2-7975-4b2e-bff8-2ca701c65f6f",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AppearStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "daf84127-9ab1-46d8-ad20-c119ef9dd6b3",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TakePhoto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bf9c7e6d-0ee4-4458-9675-eaf373fea33c",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelfieMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "04cf9b7f-d896-41af-af38-920b2f68a263",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InteractNPC",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cce37063-827c-453d-95a3-e726ff7cfee4",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NPCTakeSelfie",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
