@@ -43,3 +43,30 @@ The following packages were updated:
   com.unity.render-pipelines.universal from version 14.0.3 to 14.0.9
   com.unity.timeline from version 1.7.1 to 1.7.6
   com.unity.visualscripting from version 1.7.8 to 1.9.1
+
+=== Fri Apr 19 21:20:40 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.postprocessing from version 3.2.2 to 3.4.0
+  com.unity.shadergraph from version 12.1.7 to 14.0.9
+
+=== Fri Apr 19 21:20:41 2024
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.postprocessing@3.4.0
+  com.unity.shadergraph@14.0.9
+
+=== Fri Apr 19 21:21:46 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.postprocessing from version 3.2.2 to 3.4.0
+  com.unity.shadergraph from version 12.1.7 to 14.0.9
