@@ -15,7 +15,7 @@ C:/Users/castr/Desktop/TFG/NPC
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63841
+53428
 Successfully changed project path to: C:/Users/castr/Desktop/TFG/NPC
 C:/Users/castr/Desktop/TFG/NPC
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/castr/Desktop/TFG/NPC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20244] Host "[IP] 192.168.1.196 [Port] 0 [Flags] 2 [Guid] 1790305253 [EditorId] 1790305253 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C30G49G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15400] Host "[IP] 192.168.1.196 [Port] 0 [Flags] 2 [Guid] 771182527 [EditorId] 771182527 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C30G49G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20244] Host "[IP] 192.168.1.196 [Port] 0 [Flags] 2 [Guid] 1790305253 [EditorId] 1790305253 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C30G49G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15400] Host "[IP] 192.168.1.196 [Port] 0 [Flags] 2 [Guid] 771182527 [EditorId] 771182527 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C30G49G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 14.16 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.55 ms.
+Refreshing native plugins compatible for Editor in 16.55 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/castr/Desktop/TFG/NPC/Assets
@@ -70,17 +70,17 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009095 seconds.
-- Loaded All Assemblies, in  0.344 seconds
+Registered in 0.011458 seconds.
+- Loaded All Assemblies, in  0.350 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.244 seconds
-Domain Reload Profiling: 585ms
-	BeginReloadAssembly (96ms)
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 603ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -89,25 +89,25 @@ Domain Reload Profiling: 585ms
 	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (140ms)
-		LoadAssemblies (94ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (137ms)
-				TypeCache.ScanAssembly (122ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (114ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (244ms)
+	FinalizeReload (256ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (191ms)
+		SetupLoadedEditorAssemblies (201ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (131ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 585ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.667 seconds
-Refreshing native plugins compatible for Editor in 6.62 ms, found 6 plugins.
+- Loaded All Assemblies, in  0.727 seconds
+Refreshing native plugins compatible for Editor in 8.52 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -150,53 +150,53 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.763 seconds
-Domain Reload Profiling: 1425ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  0.780 seconds
+Domain Reload Profiling: 1499ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (447ms)
-		LoadAssemblies (305ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (478ms)
+		LoadAssemblies (347ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (221ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (166ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (158ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
 			ResolveRequiredComponents (11ms)
-	FinalizeReload (763ms)
+	FinalizeReload (781ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (597ms)
+		SetupLoadedEditorAssemblies (612ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (420ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 6.86 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 6140 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (354.0 KB). Loaded Objects now: 6600.
-Memory consumption went from 236.0 MB to 235.7 MB.
-Total: 3.959800 ms (FindLiveObjects: 0.459900 ms CreateObjectMapping: 0.422000 ms MarkObjects: 2.869300 ms  DeleteObjects: 0.207200 ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 8.96 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 6273 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (2.1 MB). Loaded Objects now: 6721.
+Memory consumption went from 250.2 MB to 248.1 MB.
+Total: 4.287100 ms (FindLiveObjects: 0.524300 ms CreateObjectMapping: 0.523700 ms MarkObjects: 2.805100 ms  DeleteObjects: 0.433000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:CustomObjectIndexerAttribute: 0f5f72dab822025b0759b197a3119d15 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -207,1200 +207,969 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 36534.615485 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9ed3c4cc2bcc5f07d20d853f149372') in 0.014304 seconds
+  Time since last request: 348337.987123 seconds.
+  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Midnight_Stars.mat
+  artifactKey: Guid(b7c00be18a6e7a2428b01c61aea8c5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Midnight_Stars.mat using Guid(b7c00be18a6e7a2428b01c61aea8c5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e07518b4bcdbc937d0247f5c9a2528') in 0.311456 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b232f2c7c23ca79350ff43187ed20ef') in 0.002624 seconds
+  Time since last request: 0.000033 seconds.
+  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Sunset_Cloudy.mat
+  artifactKey: Guid(bebabbca203115940bf67dfe65237b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Sunset_Cloudy.mat using Guid(bebabbca203115940bf67dfe65237b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0e587105b544750b4ba9c70c120f84') in 0.030160 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 15.637880 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Female Statues 1A1.fbx
-  artifactKey: Guid(523f4a4bdbacd024e8d7d790666a4f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Female Statues 1A1.fbx using Guid(523f4a4bdbacd024e8d7d790666a4f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a65b0059a4c0e055b64767ccc8cd92') in 1.824263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Stones Pieces Angled 1A1.fbx
-  artifactKey: Guid(4335731531781244e8ae1a0688d36e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Stones Pieces Angled 1A1.fbx using Guid(4335731531781244e8ae1a0688d36e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7b83e7f4d1d6966e07180e88109077') in 0.295111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 225
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Temple Set 2 1A2.fbx
-  artifactKey: Guid(6c51546989b40ee45ae809f6f5abce38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Temple Set 2 1A2.fbx using Guid(6c51546989b40ee45ae809f6f5abce38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ee0ece914cc089c175b76ea4d8e723') in 0.036718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Roof Pieces 1A1.fbx
-  artifactKey: Guid(eee9f0b1aa75e98449ff812219d81150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Roof Pieces 1A1.fbx using Guid(eee9f0b1aa75e98449ff812219d81150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd9f48f7994f7a2ef51f7489c8c6723') in 1.207332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 144
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Rounded Platform 1A1.fbx
-  artifactKey: Guid(c877f09df30211947b2e27b56c79ef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Rounded Platform 1A1.fbx using Guid(c877f09df30211947b2e27b56c79ef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ab0645f29101aba561c14749e3603b') in 0.034170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Small Temple Roof 1A1.fbx
-  artifactKey: Guid(42ea4b370b3f8144fafae97d0f6538f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Small Temple Roof 1A1.fbx using Guid(42ea4b370b3f8144fafae97d0f6538f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31162368d67be1f8dc940a6fde74e761') in 0.069019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Rocks 1A1.fbx
-  artifactKey: Guid(cab763a7fc0c9b943ae2c55b096d5a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Rocks 1A1.fbx using Guid(cab763a7fc0c9b943ae2c55b096d5a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebe735ead91bbd62b636f15db2b3c98') in 0.505499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 371
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Round Pillars 5.fbx
-  artifactKey: Guid(746d9e0000ca4eb43a268136f2d1cf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Round Pillars 5.fbx using Guid(746d9e0000ca4eb43a268136f2d1cf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb8ef3712b40f6c8979ffb7f354de59') in 0.067574 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Old Stone Walls 1A1.fbx
-  artifactKey: Guid(28b2cb957080fa1439bc1552f7e8d5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Old Stone Walls 1A1.fbx using Guid(28b2cb957080fa1439bc1552f7e8d5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad29f6ceacd0cf45e68d4d095b178be2') in 1.467548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Ancient Set - Temples/Demo Scenes/Temple Examples
-  artifactKey: Guid(0c7905394ec3a144495b88dce344953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Demo Scenes/Temple Examples using Guid(0c7905394ec3a144495b88dce344953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5155057d92c64037ebb356011bed9082') in 0.000609 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Ancient Set - Temples/Demo Scenes/Temple Examples/Temples v1.2.asset
-  artifactKey: Guid(5f760625ea7ebd3448d7de2a59ad98b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Demo Scenes/Temple Examples/Temples v1.2.asset using Guid(5f760625ea7ebd3448d7de2a59ad98b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1ba49deb9117811ef5778af4168ecf') in 0.029142 seconds
+  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Dawn.mat
+  artifactKey: Guid(b73dc2c0c9eceae4486bdb5b744fceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Dawn.mat using Guid(b73dc2c0c9eceae4486bdb5b744fceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08754ea7e1e0022e50e64909e71d06e4') in 0.027017 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Roof Tile 1A1.fbx
-  artifactKey: Guid(ea3ddd317b566d648af169ebc384e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Roof Tile 1A1.fbx using Guid(ea3ddd317b566d648af169ebc384e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8d035778bbc061e1e4966e6a120871') in 0.025868 seconds
+  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Cloudy01.mat
+  artifactKey: Guid(da04fb2a289ef1b47bf5b07b9285dd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Cloudy01.mat using Guid(da04fb2a289ef1b47bf5b07b9285dd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5310f9687128a3e91c6724c7b0b05b6b') in 0.028346 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Tile Floor 1A1.fbx
-  artifactKey: Guid(e9a387c0365a6d6498920f431818ceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Tile Floor 1A1.fbx using Guid(e9a387c0365a6d6498920f431818ceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f1acb4dfab853b47e94c29c5b50f94') in 0.024909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Metal Gates 1A1.fbx
-  artifactKey: Guid(1ad19111a76b1b74eb74c43634ce1db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Metal Gates 1A1.fbx using Guid(1ad19111a76b1b74eb74c43634ce1db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e76e854994f6abf2783401bca8f6300') in 0.080046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Water Planes 1A1.fbx
-  artifactKey: Guid(8bcaee8f1575d4d4493aafe010572fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Water Planes 1A1.fbx using Guid(8bcaee8f1575d4d4493aafe010572fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a15db44009d87f496f73232cde815a') in 1.176116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Scrolls 1A1.fbx
-  artifactKey: Guid(b7c3154af448e284f914900c9698ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Scrolls 1A1.fbx using Guid(b7c3154af448e284f914900c9698ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d2b38ba0a29357fd105079a23a9337') in 0.131475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 69
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Tile Floors 1A1.fbx
-  artifactKey: Guid(445605dd63c8b7348939df58c0aa6291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Tile Floors 1A1.fbx using Guid(445605dd63c8b7348939df58c0aa6291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18370cc9e640474384d126b9edb5f9a3') in 0.059570 seconds
+  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Day_Clear.mat
+  artifactKey: Guid(1e5e82b01cae80b44b78975b9c2d7741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Day_Clear.mat using Guid(1e5e82b01cae80b44b78975b9c2d7741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f3170c3c435dbbad32bd7aa4bdd8f4') in 0.026342 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Roof 2 Interior Pieces 1A1.fbx
-  artifactKey: Guid(c70cf07bc364fff4fb16b6c0fd6bd361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Roof 2 Interior Pieces 1A1.fbx using Guid(c70cf07bc364fff4fb16b6c0fd6bd361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0e9bc115b3635f1f7155db51d6b797') in 0.105958 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Cloudy03.mat
+  artifactKey: Guid(896fe09c49b73a44ead00a982ee46e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Cloudy03.mat using Guid(896fe09c49b73a44ead00a982ee46e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a731599be6bf9098b3bd10fffe473d8') in 0.025867 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Roof 2 Pieces 1A1.fbx
-  artifactKey: Guid(389e2df9af16e8e4f945eb72084c3914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Roof 2 Pieces 1A1.fbx using Guid(389e2df9af16e8e4f945eb72084c3914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f923f40b8f8d0e5f9bc1e2942a9fdd83') in 0.203529 seconds
+  Time since last request: 202.945608 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9ed3c4cc2bcc5f07d20d853f149372') in 0.002705 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Temple Set 2 Pillars 1A1.fbx
-  artifactKey: Guid(372d35b98d32e364192dbf4446f4ab46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Temple Set 2 Pillars 1A1.fbx using Guid(372d35b98d32e364192dbf4446f4ab46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be6ae07069cc1b1281533b8381bba0e') in 0.069752 seconds
+  Time since last request: 19.355850 seconds.
+  path: Assets/Ancient Set - Temples/Demo Scenes/Temple Examples/Temples v1.2.asset
+  artifactKey: Guid(5f760625ea7ebd3448d7de2a59ad98b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Demo Scenes/Temple Examples/Temples v1.2.asset using Guid(5f760625ea7ebd3448d7de2a59ad98b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1ba49deb9117811ef5778af4168ecf') in 0.049556 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ancient Set - Temples/Demo Scenes/Temple Examples/Temples Examples 2.0.unity
-  artifactKey: Guid(fe8dceca5ae287948a9c81473a018292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Demo Scenes/Temple Examples/Temples Examples 2.0.unity using Guid(fe8dceca5ae287948a9c81473a018292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd7b161c5229d5d70a108227c7734f0') in 0.000526 seconds
+  Time since last request: 103.576735 seconds.
+  path: Assets/Prefabs/quest2_controllers_div0.fbx
+  artifactKey: Guid(0c9382e04f1e8f24cad84c5b355c9c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/quest2_controllers_div0.fbx using Guid(0c9382e04f1e8f24cad84c5b355c9c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b630b64b4569a41555ccbe986cce1ea') in 1.774008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/smartphone.prefab
+  artifactKey: Guid(ac1b75bcf44cddf4fb18e0a75e54c9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/smartphone.prefab using Guid(ac1b75bcf44cddf4fb18e0a75e54c9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d77f62b4297beafc00c69a818cb67f') in 2.570112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Ancient Set - Temples
+  artifactKey: Guid(68dc561791420b5448ed63525d9f704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples using Guid(68dc561791420b5448ed63525d9f704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d6dcc1bb550bc917876bc7b05a41c8') in 0.000532 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Temple Shingles 1.fbx
-  artifactKey: Guid(d421aad0145f321429f8c346b92c9d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Temple Shingles 1.fbx using Guid(d421aad0145f321429f8c346b92c9d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6e614a01be101f07af7d1088b19473') in 0.051550 seconds
+  Time since last request: 11.771392 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Modules/Pillar Wall Module 2.prefab
+  artifactKey: Guid(636bbe98e3d35cf46b62f933edabf496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Modules/Pillar Wall Module 2.prefab using Guid(636bbe98e3d35cf46b62f933edabf496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1c5bef0cd6ffabafd7ddac061f7a92') in 1.416960 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 88
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Prime Rocks A.fbx
-  artifactKey: Guid(122fd07c9b9dac64e9b9aee1ba8ca13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Prime Rocks A.fbx using Guid(122fd07c9b9dac64e9b9aee1ba8ca13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111abb279f57741de5620aa7bd0daaef') in 0.076022 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Modules/Wall Window 1A1 (A).prefab
+  artifactKey: Guid(71de03bac0134e540ad95159d27e8364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Modules/Wall Window 1A1 (A).prefab using Guid(71de03bac0134e540ad95159d27e8364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736522436e129fe85621e684c7515228') in 0.108962 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
+Number of asset objects unloaded after import = 58
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Stone Prefabs 1A1.fbx
-  artifactKey: Guid(86a6f6526659e67478df620363594c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Stone Prefabs 1A1.fbx using Guid(86a6f6526659e67478df620363594c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05255dd411132ffeec7c5371f416846c') in 0.557651 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Modules/Temple Structure Large 1A1.prefab
+  artifactKey: Guid(8fd92d3140cc69242a29b1a9dacdd16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Modules/Temple Structure Large 1A1.prefab using Guid(8fd92d3140cc69242a29b1a9dacdd16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2617c28ee497e17fca6cccac7af84a') in 2.686289 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 408
+Number of asset objects unloaded after import = 3198
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Stones Pieces Angled 1B1.fbx
-  artifactKey: Guid(85bf3f68c3467604c924f5beeef23e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Stones Pieces Angled 1B1.fbx using Guid(85bf3f68c3467604c924f5beeef23e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0e35997b96e0cf3ba98ac595f5a9de') in 0.139787 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Modules/Wall Window 1B2 (A).prefab
+  artifactKey: Guid(c4ff6c76335904f4ca2b36a211bf29da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Modules/Wall Window 1B2 (A).prefab using Guid(c4ff6c76335904f4ca2b36a211bf29da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed03b0bccd15494d2076ca7827b309d4') in 0.118766 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 81
+Number of asset objects unloaded after import = 58
 ========================================================================
 Received Import Request.
   Time since last request: 0.000041 seconds.
-  path: Assets/Ancient Set - Temples/Demo Scenes/Temple Examples/Main Ter 1.asset
-  artifactKey: Guid(d309dda0b8dc96d4fb0ee9deaaef6dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Demo Scenes/Temple Examples/Main Ter 1.asset using Guid(d309dda0b8dc96d4fb0ee9deaaef6dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be62ab626e4dfeb93ef702fafc6361a9') in 0.031328 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Modules/Temple Entrance Module 1A1.prefab
+  artifactKey: Guid(e0e41ce8318d2484ca94c189057f8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Modules/Temple Entrance Module 1A1.prefab using Guid(e0e41ce8318d2484ca94c189057f8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f1a9c4e8d3c9933e5a8deebfbb6685') in 0.360812 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 1379
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Pillars 1A1.fbx
-  artifactKey: Guid(eb45f1a5ae8c49247988f85da6d2ed9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Pillars 1A1.fbx using Guid(eb45f1a5ae8c49247988f85da6d2ed9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5f417f008b5999a5928bc86fcd69ad') in 0.078691 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Modules/Wall Window 1B1 (A).prefab
+  artifactKey: Guid(1527442be2df1d64f814c9982a6adaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Modules/Wall Window 1B1 (A).prefab using Guid(1527442be2df1d64f814c9982a6adaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90c66337f896a84cb40ab762a0b7a6f') in 0.106171 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
+Number of asset objects unloaded after import = 58
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Stone Rings 1A1.fbx
-  artifactKey: Guid(3aa5fa4346676b94d88cd04a7bda8441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Stone Rings 1A1.fbx using Guid(3aa5fa4346676b94d88cd04a7bda8441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c56074fac2b29a598e6a8b5b06a1a36') in 0.071921 seconds
+  Time since last request: 0.000040 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Modules/Wall Window 1B3 (A).prefab
+  artifactKey: Guid(bda454f91fdf3ba43831d6abbd7c3701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Modules/Wall Window 1B3 (A).prefab using Guid(bda454f91fdf3ba43831d6abbd7c3701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfb8b6f0f9833dbdd209c52055d242a') in 0.095823 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
+Number of asset objects unloaded after import = 87
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Water Plane Pond 1A1.fbx
-  artifactKey: Guid(1e378cd84133027478be0c5e2553f701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Water Plane Pond 1A1.fbx using Guid(1e378cd84133027478be0c5e2553f701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608df3671910384ceeb152d72201ce0f') in 1.861738 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Modules/Wall Doorway 1A1 (B).prefab
+  artifactKey: Guid(79dfb3687f3431441b9c81497b66ef08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Modules/Wall Doorway 1A1 (B).prefab using Guid(79dfb3687f3431441b9c81497b66ef08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c877bb5410f895fe602f6317cb5f23') in 0.096264 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Stairs 1.fbx
-  artifactKey: Guid(bac3957fa28149c48aca26f049ea010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Stairs 1.fbx using Guid(bac3957fa28149c48aca26f049ea010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037d8bd935c220afcf178c40f3c3d29c') in 0.033869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Ancient Set - Temples/FBX/Pieces 1A1.fbx
-  artifactKey: Guid(eb5df78c107d63045a4951528144055c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/FBX/Pieces 1A1.fbx using Guid(eb5df78c107d63045a4951528144055c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f10c1294a2e3bcfbd1421a1fcc9e347') in 0.327649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 221
-========================================================================
-Received Import Request.
-  Time since last request: 33.396758 seconds.
-  path: Assets/Ancient Set - Temples/Prefabs/Nature/Plants, Trees/Small Tree 3_Textures/normal_specular.png
-  artifactKey: Guid(2870608d4cd2f67468765ec73d9bb8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Prefabs/Nature/Plants, Trees/Small Tree 3_Textures/normal_specular.png using Guid(2870608d4cd2f67468765ec73d9bb8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a822ef585b90fa9a3af100c9d6a83dd0') in 0.088743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Ancient Set - Temples/Prefabs/Nature/Plants, Trees/Small Tree 3_Textures/translucency_gloss.png
-  artifactKey: Guid(225aaae2280c39f49939f9a0dabdc66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Prefabs/Nature/Plants, Trees/Small Tree 3_Textures/translucency_gloss.png using Guid(225aaae2280c39f49939f9a0dabdc66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9781d0965f9fae333fb7330ef697c95') in 0.018198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 13.916376 seconds.
-  path: Assets/Ancient Set - Temples/Small Tree 3_Textures/shadow.png
-  artifactKey: Guid(602e1e16c7d4d6842b376c291db9a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Small Tree 3_Textures/shadow.png using Guid(602e1e16c7d4d6842b376c291db9a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748e499f6f4d8f93cbe3e0ede7658de9') in 0.019111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Ancient Set - Temples/Small Tree 3_Textures/normal_specular.png
-  artifactKey: Guid(dcf6a9f32b75c6b41b0d97e3d79c45a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Small Tree 3_Textures/normal_specular.png using Guid(dcf6a9f32b75c6b41b0d97e3d79c45a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611188a47a5953f9e03d4076b81667a4') in 0.028291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 24.011073 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Prime Details 1A_Prime Rocks 1A1_Normal.png
-  artifactKey: Guid(f2aadf6095a328041b105032d487947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Prime Details 1A_Prime Rocks 1A1_Normal.png using Guid(f2aadf6095a328041b105032d487947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cd85388991732e41be28ac51aa2f82') in 0.040855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Prime Rocks 1B Met 2.png
-  artifactKey: Guid(be2c1a5d2bd8f984d810f161d71567fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Prime Rocks 1B Met 2.png using Guid(be2c1a5d2bd8f984d810f161d71567fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f258e5d2415e92ece3309928256a24') in 0.090923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.846445 seconds.
-  path: Assets/Ancient Set - Temples/Textures/2 temple roof tile B_Temple Roof 2B1_MetallicSmoothness.png
-  artifactKey: Guid(7cd0676938e488348a67d81e970fc14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/2 temple roof tile B_Temple Roof 2B1_MetallicSmoothness.png using Guid(7cd0676938e488348a67d81e970fc14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a99145be6a118b559bd30454014f29') in 0.023496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 75
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Candles/Prefabs/Candle_Group_1A1.prefab
-  artifactKey: Guid(51883e66d8907a54e95a1165d97c7058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Candles/Prefabs/Candle_Group_1A1.prefab using Guid(51883e66d8907a54e95a1165d97c7058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316347c5785ac558bda294b70864e398') in 0.939310 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Modules/Temple Structure Small 1A1.prefab
+  artifactKey: Guid(d280f6381c2602443916e8d2cfefab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Modules/Temple Structure Small 1A1.prefab using Guid(d280f6381c2602443916e8d2cfefab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef95611ba8adc5fb251d1bad62b7ff2c') in 0.235790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1188
+========================================================================
+Received Import Request.
+  Time since last request: 201.655314 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Floor Block 1A2.prefab
+  artifactKey: Guid(309c22ec4e8f5364cb1d279e8eebe727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Floor Block 1A2.prefab using Guid(309c22ec4e8f5364cb1d279e8eebe727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75720fa46fbe7580e75f0070b9e4c91d') in 0.040369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Tile Floor 1A1.prefab
+  artifactKey: Guid(43a369d80f03cdf46917ea5633893546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Tile Floor 1A1.prefab using Guid(43a369d80f03cdf46917ea5633893546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c551cffaaa09ccf4c06cbe7ca8ed4e9') in 0.035588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Old Stone Railing 1A1.prefab
+  artifactKey: Guid(c217ed52c20426f429981bd4a51e742c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Old Stone Railing 1A1.prefab using Guid(c217ed52c20426f429981bd4a51e742c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d92785c65d5e16eb62709538adbeb7') in 0.049236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Tile Floor 1B1.prefab
+  artifactKey: Guid(e7457666c0ff6e0458fe233a67a1fa61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Tile Floor 1B1.prefab using Guid(e7457666c0ff6e0458fe233a67a1fa61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b9b49bd533d9ba1dde3060b4ba28e0') in 0.026959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Tile Floor 1B2.prefab
+  artifactKey: Guid(23980bdbcc873d64883db6dc1f6a9675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Tile Floor 1B2.prefab using Guid(23980bdbcc873d64883db6dc1f6a9675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bea4a6448d364d34ba49e124ff5888') in 0.022970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Stairs Platform Walls 1A2.prefab
+  artifactKey: Guid(0fa52e0012e79aa4bb5348dbb3289aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Stairs Platform Walls 1A2.prefab using Guid(0fa52e0012e79aa4bb5348dbb3289aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c75e08083fd50f3ceb5c621810cf6c4') in 0.037903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Floor Block 1B1.prefab
+  artifactKey: Guid(87003d3d78ffdba49aa40ab8022ccfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Floor Block 1B1.prefab using Guid(87003d3d78ffdba49aa40ab8022ccfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf33f714f6f8d981bf8774ce08425d3') in 0.058903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Stairs Platform Walls 1B2.prefab
+  artifactKey: Guid(f08e724b153cf10408e64809e62cc8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Stairs Platform Walls 1B2.prefab using Guid(f08e724b153cf10408e64809e62cc8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1decfccfdbd230d2bb51f8ae8327cffc') in 0.046577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Tile Floor 1A2.prefab
+  artifactKey: Guid(fcb281b38793a59408fe78da0248e43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Tile Floor 1A2.prefab using Guid(fcb281b38793a59408fe78da0248e43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c65247a143cca5e40d6fdb47c81ca66') in 0.025259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Floor Block 1B4.prefab
+  artifactKey: Guid(7f3faf58016dcb84bb0e441ca854afd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Floor Block 1B4.prefab using Guid(7f3faf58016dcb84bb0e441ca854afd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d17a2170c63386b5ba713e1006241e') in 0.056983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Old Stone Railing Post 1A1.prefab
+  artifactKey: Guid(7b5b052a6ab862e46a2ef1be643e5aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Old Stone Railing Post 1A1.prefab using Guid(7b5b052a6ab862e46a2ef1be643e5aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dff6a86363c271634b7f16aaf3dfad') in 0.044771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Stairs 1A1.prefab
+  artifactKey: Guid(25b3a79be861f8e4ca8d415a8c390199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Stairs 1A1.prefab using Guid(25b3a79be861f8e4ca8d415a8c390199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f32ad341254b68e1fd3c18ef2775845') in 0.021457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Stairs Platform Walls 1B1.prefab
+  artifactKey: Guid(609e191a998b6084ca9bfd0709e05ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Stairs Platform Walls 1B1.prefab using Guid(609e191a998b6084ca9bfd0709e05ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26db3bcaaed6399a6648e81cbedfbe2e') in 0.050272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Small Stairs 1B1.prefab
+  artifactKey: Guid(8e94395feca90584ea3e50f9922a3fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Small Stairs 1B1.prefab using Guid(8e94395feca90584ea3e50f9922a3fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7213096315c4a2e89e5e89137b5312') in 0.023098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Stairs Platform Walls 1A1.prefab
+  artifactKey: Guid(bc169e07ad7cbf34a8f708bb9c1d92f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Floors, Stairs/Stairs Platform Walls 1A1.prefab using Guid(bc169e07ad7cbf34a8f708bb9c1d92f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c1ca0d76cd2852fd42da96ac19f5ec') in 0.045973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 173.723717 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Brazier Medium 1A1.prefab
+  artifactKey: Guid(4b9534f0481de514a932a4b525666cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Brazier Medium 1A1.prefab using Guid(4b9534f0481de514a932a4b525666cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae34cf82170e7bf53eb8ff69607f90a8') in 0.073730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Hanging Scroll 1A1.prefab
+  artifactKey: Guid(a5c250807ec9f594c822250c4d7c655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Hanging Scroll 1A1.prefab using Guid(a5c250807ec9f594c822250c4d7c655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7283a2ff23849a97c7d1d09691167c3b') in 0.050920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Metal Window Bars 1A1.prefab
+  artifactKey: Guid(a9c2c64469ad3bc4b9cc9e51338c17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Metal Window Bars 1A1.prefab using Guid(a9c2c64469ad3bc4b9cc9e51338c17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf263d46b30315cd14b8546aaf2d02c') in 0.055564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Rolled Scrolls Pile 1A1.prefab
+  artifactKey: Guid(22b28188740ec62468b43ef287940dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Rolled Scrolls Pile 1A1.prefab using Guid(22b28188740ec62468b43ef287940dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17404570d86cdd6d488d2a22b76c9abb') in 0.022280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Open Scroll 1A2.prefab
+  artifactKey: Guid(e42390584b8056a4498d78911169ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Open Scroll 1A2.prefab using Guid(e42390584b8056a4498d78911169ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f9613ef45685d9e41acbc02478b57b') in 0.023430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Rolled Scroll 1A2.prefab
+  artifactKey: Guid(971a5078bc77ef94ba63293241fb8258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Rolled Scroll 1A2.prefab using Guid(971a5078bc77ef94ba63293241fb8258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb64f7fbe2d44f743d5c88765313fb3a') in 0.022132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Rolled Scrolls Pile 1A2.prefab
+  artifactKey: Guid(68c1e097085c75947bee7055d648b654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Rolled Scrolls Pile 1A2.prefab using Guid(68c1e097085c75947bee7055d648b654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f676570c75025ffb53df69e091304255') in 0.023482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Metal Gates 1A1.prefab
+  artifactKey: Guid(f45e8ed3f35999d4da6e3e90f019ff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Metal Gates 1A1.prefab using Guid(f45e8ed3f35999d4da6e3e90f019ff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b8fb60bc9c2f1565f5aa572afa8ce5') in 0.052976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Rolled Scroll 1B2.prefab
+  artifactKey: Guid(52bac798d1a9d204f8657e2d14322236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Rolled Scroll 1B2.prefab using Guid(52bac798d1a9d204f8657e2d14322236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e564a1f94d5b3693a6371bf13756a43') in 0.025199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Brazier Small 1A2.prefab
+  artifactKey: Guid(13ed5795557e8ce45b4478301a80007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Brazier Small 1A2.prefab using Guid(13ed5795557e8ce45b4478301a80007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2864794a6f6321899d787d9f13f2a7e9') in 0.051280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Brazier Stand 1A2.prefab
+  artifactKey: Guid(de478b28b99207f42ac24818530f1589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Brazier Stand 1A2.prefab using Guid(de478b28b99207f42ac24818530f1589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8709d48758e5a0bda47fd3528d3311') in 0.088807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Brazier Torch Large 1A1.prefab
+  artifactKey: Guid(e67bfb36aefac3a4eba991abb38d9c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Brazier Torch Large 1A1.prefab using Guid(e67bfb36aefac3a4eba991abb38d9c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e34abed2ea9b1086183e86ade571c9') in 0.058619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Brazier Torch Small 1A2.prefab
+  artifactKey: Guid(7757a3dc4e5ac184c82c8e585516cdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Brazier Torch Small 1A2.prefab using Guid(7757a3dc4e5ac184c82c8e585516cdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce59ae5960261785d6345948633bb4a') in 0.054697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Props, Misc/Metal Window Bars 1B1.prefab
+  artifactKey: Guid(cc39e103c2e6a4249a837d10462ffccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Props, Misc/Metal Window Bars 1B1.prefab using Guid(cc39e103c2e6a4249a837d10462ffccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebef75625a3083e89b02f1af8a748980') in 0.049559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.974882 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1A2.prefab
+  artifactKey: Guid(45a0fdd714815394796d55840002cf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1A2.prefab using Guid(45a0fdd714815394796d55840002cf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1273973789e637a1e21f2ea4f8b6db8f') in 0.039892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1C2.prefab
+  artifactKey: Guid(71a17d49cd8fa2c478bde71b2f5cee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1C2.prefab using Guid(71a17d49cd8fa2c478bde71b2f5cee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4fa672a801b464bddefbad146da1e8') in 0.040456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Square Pillar 1C1.prefab
+  artifactKey: Guid(aedbaeac63863e74c96f2d21fbaf9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Square Pillar 1C1.prefab using Guid(aedbaeac63863e74c96f2d21fbaf9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978b8fcf9cdd01b0cdca003caf04de44') in 0.052118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Stone Arch 1A1.prefab
+  artifactKey: Guid(910b5f20674d50b42b2d271735325593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Stone Arch 1A1.prefab using Guid(910b5f20674d50b42b2d271735325593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227a6e939dc38bf697c9d9822787ee45') in 0.065386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1C1.prefab
+  artifactKey: Guid(f34e0bd656bb09d40ab8043cce4bb80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1C1.prefab using Guid(f34e0bd656bb09d40ab8043cce4bb80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7692747aea0c2ea789b44514a54c48a4') in 0.039595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1A3.prefab
+  artifactKey: Guid(be8a7ebdf43f5704ca7f3911adbd4651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1A3.prefab using Guid(be8a7ebdf43f5704ca7f3911adbd4651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0173abf91d47d104798545be325d4fe') in 0.040135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1A5.prefab
+  artifactKey: Guid(1cfe2d904cb216a42ab996a531aa7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1A5.prefab using Guid(1cfe2d904cb216a42ab996a531aa7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16edb0824d5703ca344a4c918b9b905c') in 0.056871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Stone Arch 1B2.prefab
+  artifactKey: Guid(f54994c574db63d49acb74887daa0679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Stone Arch 1B2.prefab using Guid(f54994c574db63d49acb74887daa0679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eef46f7f324f852d96c2345144f544a') in 0.064293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1B2.prefab
+  artifactKey: Guid(39cf5f458879b3a48922b5d2fb95a52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1B2.prefab using Guid(39cf5f458879b3a48922b5d2fb95a52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1da7f92f895b73d863237bcff7d5a2') in 0.042948 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Ancient Set - Temples/Materials/Prime Rocks 1A1.mat
-  artifactKey: Guid(01cb5e51e80ef934086a8c79e9e072e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Materials/Prime Rocks 1A1.mat using Guid(01cb5e51e80ef934086a8c79e9e072e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa86c7e1fd7045dbf83f38ccbcd49f3') in 0.071653 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Stone Arch 1B1.prefab
+  artifactKey: Guid(2d08cafa305d1184b9cad20f6de6f796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Stone Arch 1B1.prefab using Guid(2d08cafa305d1184b9cad20f6de6f796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d90eddb84d59b8d5d50c65d099cf896') in 0.061561 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1D4.prefab
+  artifactKey: Guid(81279f11ce8bc4b40abaf5ba89bde7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1D4.prefab using Guid(81279f11ce8bc4b40abaf5ba89bde7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db30e55573a62143f7210c54b49b60d') in 0.041578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1B5.prefab
+  artifactKey: Guid(5dd5207b10e250746a5312e1cf79ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1B5.prefab using Guid(5dd5207b10e250746a5312e1cf79ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09ab8a6bea581a7ab3461b66460c409') in 0.043274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Square Pillar 1A1.prefab
+  artifactKey: Guid(f49c1ab36ad37414aaeda1f919fd1f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Square Pillar 1A1.prefab using Guid(f49c1ab36ad37414aaeda1f919fd1f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d5277c8cd5a6720458463090e21a1f') in 0.051798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Stone Arch 1A2.prefab
+  artifactKey: Guid(bff0193bc25a1344ca12d0b247a4fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Stone Arch 1A2.prefab using Guid(bff0193bc25a1344ca12d0b247a4fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ef436a31289e6ff081cdbef03c718d') in 0.048905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Interactive Controls.prefab
-  artifactKey: Guid(7bbb1960bab3e75459304488d8d1ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Interactive Controls.prefab using Guid(7bbb1960bab3e75459304488d8d1ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e09b113aa54c63477fe619ca57757b1') in 0.024627 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1B1.prefab
+  artifactKey: Guid(c78c8359f70939c4c8bfae0b51e5668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pillars, Archways/Round Pillar 1B1.prefab using Guid(c78c8359f70939c4c8bfae0b51e5668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de0ecc29ac330c164036a4187f0e657') in 0.036913 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 204
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.063404 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A2.prefab
+  artifactKey: Guid(652bad01f7b6a2348b7aa5184258aa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A2.prefab using Guid(652bad01f7b6a2348b7aa5184258aa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da269e87bd235eda3bb83fdec4a3b54a') in 0.063454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Cliff Rock 2B.png
-  artifactKey: Guid(c3e3aa99561f26d4c8521def037f675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Cliff Rock 2B.png using Guid(c3e3aa99561f26d4c8521def037f675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd026dabf693ed835dc50fc5eeafa92') in 0.030712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Ancient Set - Temples/Prefabs/Nature/Ivy/Ivy Group 5.prefab
-  artifactKey: Guid(0e5fc7d16079852438ae3b4f72ed7cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Prefabs/Nature/Ivy/Ivy Group 5.prefab using Guid(0e5fc7d16079852438ae3b4f72ed7cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa0c1343bdc09781837f1123ca809c0') in 2.354205 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Single Attachment 1D1.prefab
+  artifactKey: Guid(7152924291d06e54bb196d7d821192ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Single Attachment 1D1.prefab using Guid(7152924291d06e54bb196d7d821192ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7aae2d571f24dc4c577363fc4cf999') in 0.052662 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Ancient Set - Temples/Prefabs/Nature/Ivy/Ivy Group 1.prefab
-  artifactKey: Guid(743a1ebf6632bc74f889af8dceda3c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Prefabs/Nature/Ivy/Ivy Group 1.prefab using Guid(743a1ebf6632bc74f889af8dceda3c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4115a46f78c887f784cf847671e54140') in 0.025086 seconds
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A5.prefab
+  artifactKey: Guid(6e8e8ad5737c4ce4e8a9354cf8f0dba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A5.prefab using Guid(6e8e8ad5737c4ce4e8a9354cf8f0dba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f4da7f3d3fb9a588e2c18ca555ec9c') in 0.045695 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Ancient Set - Temples/Prefabs/Nature/Ivy/Ivy Group 3.prefab
-  artifactKey: Guid(acdd89a11f5b55a4e8cfbac2183619ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Prefabs/Nature/Ivy/Ivy Group 3.prefab using Guid(acdd89a11f5b55a4e8cfbac2183619ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad62f55e38f15edcfc6aa1a55431fc28') in 0.024592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 7.011852 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Gravel_1A.png
-  artifactKey: Guid(225848fdc23bddf4890925e852ecb52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Gravel_1A.png using Guid(225848fdc23bddf4890925e852ecb52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1964965c1c1502e7ed565a90a4908351') in 0.022170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Muddy Terrain 1.terrainlayer
-  artifactKey: Guid(2d39dc6afba22c94ba34731bf4d29402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Muddy Terrain 1.terrainlayer using Guid(2d39dc6afba22c94ba34731bf4d29402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b4d6c79a3a5be156338ce4552b7fb8') in 0.036626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Round Pillars 1A1_Round Pillars 1A1_AlbedoTransparency.png
-  artifactKey: Guid(6d3046143d9687345ab37756447ead99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Round Pillars 1A1_Round Pillars 1A1_AlbedoTransparency.png using Guid(6d3046143d9687345ab37756447ead99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9936700a728ad9194973c87682035188') in 0.039284 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Rocky Clusters 1.png
-  artifactKey: Guid(1d13f268b6ae46b428826d2e51063b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Rocky Clusters 1.png using Guid(1d13f268b6ae46b428826d2e51063b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c24a3d162708bfbcbf30f2163d3402') in 0.041239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Stone Pieces 3A_Stone Blocks 3A1_MetallicSmoothness.png
-  artifactKey: Guid(d39f4982dd9655144ac317222d98edb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Stone Pieces 3A_Stone Blocks 3A1_MetallicSmoothness.png using Guid(d39f4982dd9655144ac317222d98edb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac4f1253e27b8804689f1d0b34c5f7f') in 0.021391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Rocky Dirt 1 Normal.png
-  artifactKey: Guid(334809801d44dc54fb81d957649fde9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Rocky Dirt 1 Normal.png using Guid(334809801d44dc54fb81d957649fde9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5c915e5af284520b0b0ebf0a6b6ef5') in 0.020689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Stone Pieces 3A_Stone Blocks 3A1_AO.png
-  artifactKey: Guid(948e56ccea02e554f8ffb30960f04a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Stone Pieces 3A_Stone Blocks 3A1_AO.png using Guid(948e56ccea02e554f8ffb30960f04a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68409ce563dbad1ddb6b861f96c22e4c') in 0.017114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Pottery 1A1_Pottery 1A1_MetallicSmoothness.png
-  artifactKey: Guid(8f3531afd1daf2f43941e16cd3e28b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Pottery 1A1_Pottery 1A1_MetallicSmoothness.png using Guid(8f3531afd1daf2f43941e16cd3e28b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bbef63c5140a328fa3318baca7e027') in 0.033645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Mountain Rock.terrainlayer
-  artifactKey: Guid(92e4c518ef5ba4f45aa43b62f45bf5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Mountain Rock.terrainlayer using Guid(92e4c518ef5ba4f45aa43b62f45bf5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd758c4ef3ab5cc79ebf89949e81e19f6') in 0.019453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Pillars 1A1_Pillars 1A1_Normal.png
-  artifactKey: Guid(754805dcafd55374db6a61fdce14e916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Pillars 1A1_Pillars 1A1_Normal.png using Guid(754805dcafd55374db6a61fdce14e916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802ef50d25832dd6c71a0677bd12835f') in 0.033039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Ivy Leaf 1.png
-  artifactKey: Guid(adaf555be2f50e64eb3fad99df19af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Ivy Leaf 1.png using Guid(adaf555be2f50e64eb3fad99df19af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb58df21d69fde861a5b636006fb934') in 0.020398 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Wall Window 1A1.prefab
+  artifactKey: Guid(265b0614cf1d55f45aba2e05195d8a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Wall Window 1A1.prefab using Guid(265b0614cf1d55f45aba2e05195d8a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cab4582504ef9a3018397d0744ff281') in 0.045967 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Stairs 1_Stairs 1A1_AlbedoTransparency.png
-  artifactKey: Guid(c98cb73fd5daf654b87787f146a7aaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Stairs 1_Stairs 1A1_AlbedoTransparency.png using Guid(c98cb73fd5daf654b87787f146a7aaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8d548253ae207996a560e56ad93a6e') in 0.021241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Muddy Ground 1A_AlbedoTransparency.png
-  artifactKey: Guid(6834f95597ebd6d4bb731a01233f0621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Muddy Ground 1A_AlbedoTransparency.png using Guid(6834f95597ebd6d4bb731a01233f0621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7de49c5c2d2eaee2285d6f3b7c39a6e') in 0.022772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Temple Roof Supply 1A1_Temple Roof Supply 1A1_Normal.png
-  artifactKey: Guid(4ec815852fa73784d8f31cd5406ad1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Temple Roof Supply 1A1_Temple Roof Supply 1A1_Normal.png using Guid(4ec815852fa73784d8f31cd5406ad1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39db068df5b6b42aa41a94ad1c593503') in 0.032854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/New Brick small 1_Main Brick 1_MetallicSmoothness.png
-  artifactKey: Guid(dc6c91199d3865145961c2d7a7ba310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/New Brick small 1_Main Brick 1_MetallicSmoothness.png using Guid(dc6c91199d3865145961c2d7a7ba310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34460b21b551300011115fd44e16999d') in 0.016519 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Ruins Walls 1_Walls 1A1_MetallicSmoothness.png
-  artifactKey: Guid(60f99f2965421bd449cb126bfd58e8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Ruins Walls 1_Walls 1A1_MetallicSmoothness.png using Guid(60f99f2965421bd449cb126bfd58e8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f16924cb8d0cc2b6e212f4c4cb384a') in 0.021009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Round Pillars 1A1_Round Pillars 1A1_AlbedoTransparency2.png
-  artifactKey: Guid(3c532f46f7b46ab40bedd6c95badec15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Round Pillars 1A1_Round Pillars 1A1_AlbedoTransparency2.png using Guid(3c532f46f7b46ab40bedd6c95badec15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a4971fb956067a63cebfc60dc0eb60') in 0.025663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Stairs 1_Stairs 1A1_Normal.png
-  artifactKey: Guid(feef182a228e91b4eb0ce5ec4f712e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Stairs 1_Stairs 1A1_Normal.png using Guid(feef182a228e91b4eb0ce5ec4f712e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbcdfeb8b3c505a7341306bdb8d6b76') in 0.025438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Stone Pieces 3A_Stone Blocks 3A1_Normal.png
-  artifactKey: Guid(eeafc1f401fb9a94cb5d63173fcf2284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Stone Pieces 3A_Stone Blocks 3A1_Normal.png using Guid(eeafc1f401fb9a94cb5d63173fcf2284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f7cc7fabc931847ac391f202e6c2fe') in 0.034348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Stone Pieces 3A_Stone Blocks 3A1_AlbedoTransparency.png
-  artifactKey: Guid(88b923b422585714cbfb7aae731c68a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Stone Pieces 3A_Stone Blocks 3A1_AlbedoTransparency.png using Guid(88b923b422585714cbfb7aae731c68a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcfb2d0a9d613e9ccd2f79f38fab9fd') in 0.022211 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Temple Roof Supply 1A1_Temple Roof Supply 1A1_MetallicSmoothness.png
-  artifactKey: Guid(982b9df628e86c54f9e48d8c418bf975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Temple Roof Supply 1A1_Temple Roof Supply 1A1_MetallicSmoothness.png using Guid(982b9df628e86c54f9e48d8c418bf975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395fab1f135f736c1ff8448812fa4b15') in 0.033896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Stones 1_Stones 1A1_AlbedoTransparency.png
-  artifactKey: Guid(912b6af2df9f44c4fa290fe2995c2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Stones 1_Stones 1A1_AlbedoTransparency.png using Guid(912b6af2df9f44c4fa290fe2995c2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c824cb5b12d99b8298d447ffee4d190d') in 0.029573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Ivy gen 1_Ivy 1B_MetallicSmoothness.png
-  artifactKey: Guid(14fd0fbf196b060438afb8c05f27735e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Ivy gen 1_Ivy 1B_MetallicSmoothness.png using Guid(14fd0fbf196b060438afb8c05f27735e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e0015cba4452fb3059c2b5ff95952d') in 0.023412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Temple Pieces 1A1 Metallic.png
-  artifactKey: Guid(0af1fb8462338374abd9715fea0d08f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Temple Pieces 1A1 Metallic.png using Guid(0af1fb8462338374abd9715fea0d08f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a6e9aa69d1c55ff7e33df6e69475fd') in 0.023444 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Scrolls 1A1_Scrolls 1A1_MetallicSmoothness.png
-  artifactKey: Guid(9c3ff90cc8f11754fbda32a8ebd27e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Scrolls 1A1_Scrolls 1A1_MetallicSmoothness.png using Guid(9c3ff90cc8f11754fbda32a8ebd27e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8690ad0c9968a398d189f4977704a6ac') in 0.016928 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Temple Pieces 1A1 Albedo.png
-  artifactKey: Guid(0702d39f077d0a3428424dee4cc37a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Temple Pieces 1A1 Albedo.png using Guid(0702d39f077d0a3428424dee4cc37a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d1f541deef21e417277201a29ddbb5') in 0.025639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Ancient Set - Temples/Textures/Main Textures/Leaves 1.png
-  artifactKey: Guid(4188ba867db8bc844a60badce71fc31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/Main Textures/Leaves 1.png using Guid(4188ba867db8bc844a60badce71fc31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90733c3faceb1de37afdffd3f9157e75') in 0.018863 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 12.822784 seconds.
-  path: Assets/Ancient Set - Temples/Textures/2 Temple Detail prefabs 1_Temple Detail Trim 1A1_MetallicSmoothness.png
-  artifactKey: Guid(17d3c0d20b461c04e9e54d177850529e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/2 Temple Detail prefabs 1_Temple Detail Trim 1A1_MetallicSmoothness.png using Guid(17d3c0d20b461c04e9e54d177850529e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5405645b9608dd75d582a340ebefb3') in 0.015745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Ancient Set - Temples/Prefabs/Nature/Cliff Rock Pieces/Textures/3 cliff clusters A_Cliff 1B_AlbedoTransparency.png
-  artifactKey: Guid(902183642c6139d44ba2953ac693452d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Prefabs/Nature/Cliff Rock Pieces/Textures/3 cliff clusters A_Cliff 1B_AlbedoTransparency.png using Guid(902183642c6139d44ba2953ac693452d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d834511865df63d06208a226ac8e211') in 0.018384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Ancient Set - Temples/Textures/2 Temple Detail prefabs 1_Temple Detail Trim 1A1_Normal.png
-  artifactKey: Guid(d55a7418723485347b241bfebc9fa731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/2 Temple Detail prefabs 1_Temple Detail Trim 1A1_Normal.png using Guid(d55a7418723485347b241bfebc9fa731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109b5a0353d5a0c0091606526a6dd444') in 0.020565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Ancient Set - Temples/Textures/3 Trim and Walls 1A1_Trim and Walls 1B1_AlbedoTransparency.png
-  artifactKey: Guid(e9bdcdd35961c70489a31f457e111954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Textures/3 Trim and Walls 1A1_Trim and Walls 1B1_AlbedoTransparency.png using Guid(e9bdcdd35961c70489a31f457e111954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d19bc6aea19ca85c8ca4c2518392fc') in 0.017579 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.540635 seconds.
-  path: Assets/Character/Y Bot.fbx
-  artifactKey: Guid(57c9043e064691f459b4b9e3632d7c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Y Bot.fbx using Guid(57c9043e064691f459b4b9e3632d7c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c68f9712ed0ef5e76f9077aade4f254') in 0.950738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 148
-========================================================================
-Received Import Request.
-  Time since last request: 30.003118 seconds.
-  path: Assets/Ancient Set - Temples/Materials/Fire 1.mat
-  artifactKey: Guid(c6760e1cc27e8214f928f5e79b7b0703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Materials/Fire 1.mat using Guid(c6760e1cc27e8214f928f5e79b7b0703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de51b493b8b26a1d116e23f5861e4976') in 1.159423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Ancient Set - Temples/Materials/Wall Pieces 1A1.mat
-  artifactKey: Guid(9336160f2d84ed546a61ab0d6d1004f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Materials/Wall Pieces 1A1.mat using Guid(9336160f2d84ed546a61ab0d6d1004f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade1e2df8ba425644f1ef512b1ada69') in 0.040786 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Single Attachment 1C1.prefab
+  artifactKey: Guid(7c514032121394a42926a30a0c568e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Single Attachment 1C1.prefab using Guid(7c514032121394a42926a30a0c568e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4779cdce341eca1959f38517fc4552c') in 0.042452 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Ancient Set - Temples/Materials/Stone Pieces 3A1.mat
-  artifactKey: Guid(f8aedfb854f5616448cdec5258340dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Materials/Stone Pieces 3A1.mat using Guid(f8aedfb854f5616448cdec5258340dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5f2ca4ed91bcca60942f39b0a821e4') in 0.035350 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Wall Window 1B1.prefab
+  artifactKey: Guid(4fb1c98802a90fd408612ab125bf4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Wall Window 1B1.prefab using Guid(4fb1c98802a90fd408612ab125bf4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf17b08f05a6127176d5146faa1388fd') in 0.045783 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Ancient Set - Temples/Materials/Metal Gates 1A1.mat
-  artifactKey: Guid(c9a636a9de824b3478fcecc061962e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Materials/Metal Gates 1A1.mat using Guid(c9a636a9de824b3478fcecc061962e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718056703020fa5173f391862386079c') in 0.045181 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A7.prefab
+  artifactKey: Guid(91564975db52d2843ac1fa0d19cab7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A7.prefab using Guid(91564975db52d2843ac1fa0d19cab7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710da2428437569c827ed2cbdb794de1') in 0.044644 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Ancient Set - Temples/Materials/Optimized Bark 1.mat
-  artifactKey: Guid(a32d7f1c55c336d46ace0b258e5ffa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Materials/Optimized Bark 1.mat using Guid(a32d7f1c55c336d46ace0b258e5ffa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18722197a95f1150e4ac33d7c525b84c') in 1.045448 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 10.245610 seconds.
-  path: Assets/Ancient Set - Temples/Prefabs/Nature/Plants, Trees/Bush B.prefab
-  artifactKey: Guid(b86366c495ad0ec47a4ab54c8ca82eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Prefabs/Nature/Plants, Trees/Bush B.prefab using Guid(b86366c495ad0ec47a4ab54c8ca82eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4496d25f0f3d94e95a3b1a1c08b526') in 0.153989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 56.097385 seconds.
-  path: Assets/Ancient Set - Temples/Prefabs/Nature/Plants, Trees/Bush B.prefab
-  artifactKey: Guid(b86366c495ad0ec47a4ab54c8ca82eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Prefabs/Nature/Plants, Trees/Bush B.prefab using Guid(b86366c495ad0ec47a4ab54c8ca82eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9e9898579b1ccd3c5aae26d6adc0fc') in 1.334350 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Ancient Set - Temples/Prefabs/Nature/Plants, Trees/Small Tree 3.prefab
-  artifactKey: Guid(48ec42ca67d657f45a688c60a5e656b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ancient Set - Temples/Prefabs/Nature/Plants, Trees/Small Tree 3.prefab using Guid(48ec42ca67d657f45a688c60a5e656b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9def555148c0bb987d578e520e2907') in 0.035901 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Top Attachment 1A4.prefab
+  artifactKey: Guid(d0a29c61db8a742449a288feae17cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Top Attachment 1A4.prefab using Guid(d0a29c61db8a742449a288feae17cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4eb82695ce7b02f6f08f4a0b1427273') in 0.044180 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.485 seconds
-Refreshing native plugins compatible for Editor in 6.69 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-NPC
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5e6ebaa7d75c4d5399dc81ecead6b43f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.218 seconds
-Domain Reload Profiling: 1699ms
-	BeginReloadAssembly (165ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (245ms)
-		LoadAssemblies (268ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (51ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1219ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (540ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 6.42 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 6026 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (449.2 KB). Loaded Objects now: 6762.
-Memory consumption went from 217.4 MB to 217.0 MB.
-Total: 3.664500 ms (FindLiveObjects: 0.441800 ms CreateObjectMapping: 0.391500 ms MarkObjects: 2.595900 ms  DeleteObjects: 0.234600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 81.931370 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Version.asset
-  artifactKey: Guid(cb530898cc05d744da0941d6160f7b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Version.asset using Guid(cb530898cc05d744da0941d6160f7b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901c9b14e5acf72114a1e7afae0446f0') in 0.020872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.604430 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat
-  artifactKey: Guid(0f74119e82d3b3a4d9b2842dbaa2a6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat using Guid(0f74119e82d3b3a4d9b2842dbaa2a6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6795dc8cb3480c27200734c479131c0c') in 0.194909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat
-  artifactKey: Guid(2557d3f1d341fdb4e9d53179c053ffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat using Guid(2557d3f1d341fdb4e9d53179c053ffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36617122541d674db0c6054fdcd298be') in 0.031347 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat
-  artifactKey: Guid(6fc6652ed834922468cdd63bb95f7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat using Guid(6fc6652ed834922468cdd63bb95f7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a2192dcd16187bfdde7e9e7602a454') in 0.008454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat
-  artifactKey: Guid(1cf6f4c6e6e0518419839d3f5448dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat using Guid(1cf6f4c6e6e0518419839d3f5448dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dabda7f6fc59d418276c493c01893ee') in 0.340307 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A3.prefab
+  artifactKey: Guid(3afed5de5b630b644bd83452607b2b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A3.prefab using Guid(3afed5de5b630b644bd83452607b2b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743e4dfd387d705ec17026270115c26d') in 0.045487 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat
-  artifactKey: Guid(2bd8959f5fbd3644aa33af1a155fc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat using Guid(2bd8959f5fbd3644aa33af1a155fc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79943d680ea6c6dd88e5e2743fcca57') in 0.131872 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Single Attachment 1B1.prefab
+  artifactKey: Guid(d1733fc78c0981e41990337fe45f1112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Single Attachment 1B1.prefab using Guid(d1733fc78c0981e41990337fe45f1112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bc72e929f89381a4848486630a80f2') in 0.041030 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 13.547263 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat
-  artifactKey: Guid(0f74119e82d3b3a4d9b2842dbaa2a6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat using Guid(0f74119e82d3b3a4d9b2842dbaa2a6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19818c3360f2ae89c8ae83f307e336d8') in 0.024033 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Doorway Stairs 1A1.prefab
+  artifactKey: Guid(81eb90d7ce11e1d4e95b5ea19bef238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Doorway Stairs 1A1.prefab using Guid(81eb90d7ce11e1d4e95b5ea19bef238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7870ae114716509527ddbf40544c39') in 0.043238 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat
-  artifactKey: Guid(6fc6652ed834922468cdd63bb95f7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat using Guid(6fc6652ed834922468cdd63bb95f7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52bfe9732475c61ef8b3ac9cae416e6') in 0.014209 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A6.prefab
+  artifactKey: Guid(fc7e53ffbde8274459b9e156c5b303a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A6.prefab using Guid(fc7e53ffbde8274459b9e156c5b303a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3658d87274f84e5e2a8dfcb16d623a11') in 0.043124 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat
-  artifactKey: Guid(2a8f9a878cb7cff45b00339938d945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat using Guid(2a8f9a878cb7cff45b00339938d945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c535f0bfd880b631b8f198ed77d69bb') in 0.030761 seconds
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A4.prefab
+  artifactKey: Guid(08d3cd44cc27c6f4293e3cdf8b05f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Bottom Attachment 1A4.prefab using Guid(08d3cd44cc27c6f4293e3cdf8b05f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d167d19de7f341dab8b6241f2a94305') in 0.042448 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat
-  artifactKey: Guid(ff059fc016fcf8d4a88162b27e334cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat using Guid(ff059fc016fcf8d4a88162b27e334cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04156f1e8614475ac7237d08702213e7') in 0.042983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.506 seconds
-Refreshing native plugins compatible for Editor in 6.61 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-NPC
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5e6ebaa7d75c4d5399dc81ecead6b43f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  9.447 seconds
-Domain Reload Profiling: 9947ms
-	BeginReloadAssembly (166ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (260ms)
-		LoadAssemblies (284ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (57ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (7ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (9447ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (6881ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1503ms)
-			ProcessInitializeOnLoadAttributes (4400ms)
-			ProcessInitializeOnLoadMethodAttributes (957ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (671ms)
-Refreshing native plugins compatible for Editor in 7.65 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 6158 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 85 unused Assets / (4.2 MB). Loaded Objects now: 6901.
-Memory consumption went from 232.5 MB to 228.3 MB.
-Total: 8.617200 ms (FindLiveObjects: 0.727600 ms CreateObjectMapping: 0.870700 ms MarkObjects: 4.306500 ms  DeleteObjects: 2.711600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 0f5f72dab822025b0759b197a3119d15 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.599 seconds
-Refreshing native plugins compatible for Editor in 7.48 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-NPC
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5e6ebaa7d75c4d5399dc81ecead6b43f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.383 seconds
-Domain Reload Profiling: 1977ms
-	BeginReloadAssembly (157ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (358ms)
-		LoadAssemblies (293ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (101ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1383ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (632ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (444ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 7.48 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 6156 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 85 unused Assets / (4.2 MB). Loaded Objects now: 6907.
-Memory consumption went from 234.0 MB to 229.7 MB.
-Total: 5.480500 ms (FindLiveObjects: 0.503000 ms CreateObjectMapping: 0.648100 ms MarkObjects: 3.170500 ms  DeleteObjects: 1.157500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 0f5f72dab822025b0759b197a3119d15 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.473 seconds
-Refreshing native plugins compatible for Editor in 6.77 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-NPC
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5e6ebaa7d75c4d5399dc81ecead6b43f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\castr\Desktop\TFG\NPC\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <5e6ebaa7d75c4d5399dc81ecead6b43f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.296 seconds
-Domain Reload Profiling: 1764ms
-	BeginReloadAssembly (147ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (248ms)
-		LoadAssemblies (271ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (52ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1297ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (510ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (346ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 6.61 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 6095 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (4.2 MB). Loaded Objects now: 6896.
-Memory consumption went from 234.9 MB to 230.6 MB.
-Total: 4.601400 ms (FindLiveObjects: 0.462600 ms CreateObjectMapping: 0.436500 ms MarkObjects: 2.652300 ms  DeleteObjects: 1.049400 ms)
-
-Prepare: number of updated asset objects reloaded= 2
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 0f5f72dab822025b0759b197a3119d15 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 154.341651 seconds.
-  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Cloudy02.mat
-  artifactKey: Guid(d4393bf45f92e74499f230d78e8cab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Cloudy02.mat using Guid(d4393bf45f92e74499f230d78e8cab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af9be0aa156185cf371dd5ebcb18450') in 0.244329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Sunset.mat
-  artifactKey: Guid(170f2a047c448444ca1b8e2d20f504f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Sunset.mat using Guid(170f2a047c448444ca1b8e2d20f504f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3b2d040d8b55cb88fe9bbd8b09608f') in 0.020213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Cloudy03.mat
-  artifactKey: Guid(896fe09c49b73a44ead00a982ee46e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Cloudy03.mat using Guid(896fe09c49b73a44ead00a982ee46e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a731599be6bf9098b3bd10fffe473d8') in 0.023472 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Wall Short 1A1.prefab
+  artifactKey: Guid(ac11d7a33ce0e2547b7b1e75b79a35cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Wall Pieces/Wall Short 1A1.prefab using Guid(ac11d7a33ce0e2547b7b1e75b79a35cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c50037896192bd39d20ae59685af16d') in 0.045783 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Cloudy04.mat
-  artifactKey: Guid(b01d8a5305a527c4daeab5318708e238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Cloudy04.mat using Guid(b01d8a5305a527c4daeab5318708e238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bd020d9c6fa737dafd3cabdd06d76e') in 0.021959 seconds
+  Time since last request: 6.305128 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Medium 1A1 (Lit Fire).prefab
+  artifactKey: Guid(1d7e65c082d0fc942ad4b356943af6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Medium 1A1 (Lit Fire).prefab using Guid(1d7e65c082d0fc942ad4b356943af6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8cb27e07e352c74aca7993ef2ae569') in 0.070793 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 42
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Day_Clear.mat
-  artifactKey: Guid(1e5e82b01cae80b44b78975b9c2d7741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Day_Clear.mat using Guid(1e5e82b01cae80b44b78975b9c2d7741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f3170c3c435dbbad32bd7aa4bdd8f4') in 0.021572 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Torch Small 1A2 (Lit Fire).prefab
+  artifactKey: Guid(7a943e3cb8979394ea54a15e1d246dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Torch Small 1A2 (Lit Fire).prefab using Guid(7a943e3cb8979394ea54a15e1d246dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec909b3d3f76610bc6465b932496f0b') in 0.051633 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 42
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Free Stylized Hand-Painted Skybox/Materials/Midnight.mat
-  artifactKey: Guid(5eae8f65eabf7ee4994b422cd10214bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Hand-Painted Skybox/Materials/Midnight.mat using Guid(5eae8f65eabf7ee4994b422cd10214bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380dc75a4d3d2f1a60e4a559ce2a8053') in 0.018625 seconds
+  path: Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Fire Small 1A1 (Light).prefab
+  artifactKey: Guid(913f175dd60f57f4ebdb0cd98a70d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Fire Small 1A1 (Light).prefab using Guid(913f175dd60f57f4ebdb0cd98a70d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf4295bfbee5d0b8b56ce4a2e6630c8') in 0.023007 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Stand 1A3 (Lit Fire).prefab
+  artifactKey: Guid(12a1276311283aa4f8ea9822b7817e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Stand 1A3 (Lit Fire).prefab using Guid(12a1276311283aa4f8ea9822b7817e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef1b96b9f648e3c09a541029febbd69') in 0.089681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Torch Large 1A1 (Lit Fire).prefab
+  artifactKey: Guid(eff318de5151c694f8193ce9a0a2011a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Torch Large 1A1 (Lit Fire).prefab using Guid(eff318de5151c694f8193ce9a0a2011a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d43d591b1379231f2bac6eb0a4f343') in 0.065063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Torch Large 1A2 (Lit Fire).prefab
+  artifactKey: Guid(a96bce8dbb8ae374d8c3022808c7630c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Torch Large 1A2 (Lit Fire).prefab using Guid(a96bce8dbb8ae374d8c3022808c7630c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a0df686ed583253323fd1296d7b0d8') in 0.061474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Stand 1A4 (Lit Fire).prefab
+  artifactKey: Guid(1139455e4ac239d47a370f735215ea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Stand 1A4 (Lit Fire).prefab using Guid(1139455e4ac239d47a370f735215ea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdb49860274aaea7996a823eeba28ad') in 0.086117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Pedestal 2A1 (Lit Stand).prefab
+  artifactKey: Guid(185fed0158d7b0b4c91fe7dfea2b4f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Pedestal 2A1 (Lit Stand).prefab using Guid(185fed0158d7b0b4c91fe7dfea2b4f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ff7cfe1d3393ea4d59a4cc4d6bbc3c') in 0.031361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Stand 1A2 (Lit Fire).prefab
+  artifactKey: Guid(cb051ba3159ccfb45b4abd4d623473f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Lit Objects, Lights/Brazier Stand 1A2 (Lit Fire).prefab using Guid(cb051ba3159ccfb45b4abd4d623473f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de97af275588988cfab8adc74fc707b') in 0.084411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 6.040147 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Bowl 2A2.prefab
+  artifactKey: Guid(86baa18a3264679438a2668f2b220554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Bowl 2A2.prefab using Guid(86baa18a3264679438a2668f2b220554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f603863a6c53c3eef64223bf8c0ace12') in 0.021424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Fountain Small 1A3.prefab
+  artifactKey: Guid(4fb9073b486c7ca4d8e4b9fb38778a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Fountain Small 1A3.prefab using Guid(4fb9073b486c7ca4d8e4b9fb38778a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10b772369e603993a8859709a7c15ec') in 0.051654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A8.prefab
+  artifactKey: Guid(5ca7056c2cd3d5047aa9d2ffb1cac14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A8.prefab using Guid(5ca7056c2cd3d5047aa9d2ffb1cac14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4a1e0450839b43bfb8d5fe1959ddd7') in 0.021973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1A2.prefab
+  artifactKey: Guid(3e68d88a3e331854f92653b352ece6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1A2.prefab using Guid(3e68d88a3e331854f92653b352ece6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e489a05d0014fa14061a965b2c43f6') in 0.049034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1C2.prefab
+  artifactKey: Guid(d376f0a58c7b9204d85422f8c59a11ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1C2.prefab using Guid(d376f0a58c7b9204d85422f8c59a11ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8ab95c6296f17270e082128822e0ec') in 0.052159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A6.prefab
+  artifactKey: Guid(19917de40577cab4f8a8f6f00af9477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A6.prefab using Guid(19917de40577cab4f8a8f6f00af9477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279e1e306a5345c0ce99402123488f49') in 0.025238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A2.prefab
+  artifactKey: Guid(36a7b0d02827a404d9ba62d9f09aee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A2.prefab using Guid(36a7b0d02827a404d9ba62d9f09aee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5c7eed1c4bca515fc8091f9e1114d1') in 0.029324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Bowl 2A3.prefab
+  artifactKey: Guid(904e22fe45df7694e9df20cf6982f113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Bowl 2A3.prefab using Guid(904e22fe45df7694e9df20cf6982f113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9fd4d5c0395fed9e9bec2272cbdb3b') in 0.026119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Bowl 2A5.prefab
+  artifactKey: Guid(8d9995d4de727184cbfa8bf6dd4b9473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Bowl 2A5.prefab using Guid(8d9995d4de727184cbfa8bf6dd4b9473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6092bf5bea028e714cfe0e3a623d3735') in 0.025411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A3.prefab
+  artifactKey: Guid(30a4ddbf33319a9409fae601043a22c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A3.prefab using Guid(30a4ddbf33319a9409fae601043a22c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6093ea0ade523cd00d42ab87dfa0a1f') in 0.023920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Bowl 2A4.prefab
+  artifactKey: Guid(f862a39f9061d044f9ac0d548a897339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Bowl 2A4.prefab using Guid(f862a39f9061d044f9ac0d548a897339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c7f49ae01e02a8396ff30a279b99d0') in 0.024802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1D2.prefab
+  artifactKey: Guid(d438b368b2cb4624d9948156c457d839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1D2.prefab using Guid(d438b368b2cb4624d9948156c457d839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ff9f777ffc5d26b7ff95d9744a3d1d') in 0.050345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A5.prefab
+  artifactKey: Guid(4022e9a9e829ecc4b92636560f29e917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A5.prefab using Guid(4022e9a9e829ecc4b92636560f29e917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9977d08e1d906a5e3564f19d355f5faf') in 0.025262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Bowl 2A6.prefab
+  artifactKey: Guid(b5f82a110eb380e4780f4afeef992afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Bowl 2A6.prefab using Guid(b5f82a110eb380e4780f4afeef992afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49863f2f6532abb599addd5bd098ea9c') in 0.023703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1D1.prefab
+  artifactKey: Guid(f64b7439cd15b7442b9c0601f4b2a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1D1.prefab using Guid(f64b7439cd15b7442b9c0601f4b2a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dece89f01f24732a348bd1b8371c924') in 0.049522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1B1.prefab
+  artifactKey: Guid(97e72f45cc7df1849bf64c0de3f1475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1B1.prefab using Guid(97e72f45cc7df1849bf64c0de3f1475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff49aed506c9ed085b1eced22780dcdc') in 0.054647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A1.prefab
+  artifactKey: Guid(9b3da613890c66640ac3e4ce5320c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Urn 2A1.prefab using Guid(9b3da613890c66640ac3e4ce5320c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60653d79ddaccec3319257552efc7443') in 0.023559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1B2.prefab
+  artifactKey: Guid(6efb09089a0ae3e4d81eccb55c6020f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Pottery 1B2.prefab using Guid(6efb09089a0ae3e4d81eccb55c6020f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27ac1a43c3af030422ac414a1781044') in 0.048543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Fountain Bowl 1A2.prefab
+  artifactKey: Guid(d01e2d86f1444ae4b94fb1d04516b6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Empty/Fountain Bowl 1A2.prefab using Guid(d01e2d86f1444ae4b94fb1d04516b6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9616ddc645fc247a500b177b99d233e8') in 0.048120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.576498 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Fountain 1A2.prefab
+  artifactKey: Guid(c6069e20a83377446b72012ad095ec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Fountain 1A2.prefab using Guid(c6069e20a83377446b72012ad095ec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ecad32c873ee4c0bfdf189fd79bb8f') in 1.133114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Fountain Small 1A3 (Water).prefab
+  artifactKey: Guid(e18c4fff5140c2c489ff64eb44a2aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Fountain Small 1A3 (Water).prefab using Guid(e18c4fff5140c2c489ff64eb44a2aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5632dc94ce60e0220787d9e2a1ab717') in 0.052627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1D2 (Water).prefab
+  artifactKey: Guid(d1d5f7245832dbd4783fb5b28b586036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1D2 (Water).prefab using Guid(d1d5f7245832dbd4783fb5b28b586036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3e852310a2993a5c6e40de75dbe33b') in 0.053683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1B2 (Water).prefab
+  artifactKey: Guid(78a5a33514643f04a9d388dc6f0c728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1B2 (Water).prefab using Guid(78a5a33514643f04a9d388dc6f0c728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7746a35fd9953fb3300a9efb7eb85206') in 0.045833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1A1 (Water).prefab
+  artifactKey: Guid(d0baf18dee7d4414b950cac467181ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1A1 (Water).prefab using Guid(d0baf18dee7d4414b950cac467181ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf13dfc9eb415ec07adae8a5bf12218') in 0.049335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1E2 (Water).prefab
+  artifactKey: Guid(98a902c4e4f9a884c8b6d1360067e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1E2 (Water).prefab using Guid(98a902c4e4f9a884c8b6d1360067e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980fdf84d7b577200bb36658f07e81a2') in 0.058576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Fountain Small 1A2 (Water).prefab
+  artifactKey: Guid(8b85cd1f85b0c454a9ff080b68ac2ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Fountain Small 1A2 (Water).prefab using Guid(8b85cd1f85b0c454a9ff080b68ac2ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4629b3182fbf0d51d182536d17abfba2') in 0.055877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Fountain Bowl 1A2 (Water).prefab
+  artifactKey: Guid(8333cc6ae96b238469f5c70f2fedcc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Fountain Bowl 1A2 (Water).prefab using Guid(8333cc6ae96b238469f5c70f2fedcc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803aa0f81b8d245c4cec9175c607b8b5') in 0.053351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1E1 (Water).prefab
+  artifactKey: Guid(06b69a5aa3e644a48bd75a55f892c786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1E1 (Water).prefab using Guid(06b69a5aa3e644a48bd75a55f892c786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ea7a6880a9e3ff54229a154ef65b8f') in 0.072875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1B1 (Water).prefab
+  artifactKey: Guid(eaecbd895feedf34b898bc71beb7f942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1B1 (Water).prefab using Guid(eaecbd895feedf34b898bc71beb7f942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776fff408165a64229a24cfb50d1a042') in 0.075990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1C1 (Water).prefab
+  artifactKey: Guid(9035e3fe92426634db0b38c8013bfb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Pottery, Fountains/Water Filled/Pottery 1C1 (Water).prefab using Guid(9035e3fe92426634db0b38c8013bfb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d11b7fd28884687200a3271f8517af') in 0.066041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 2.392710 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Statues/Female Statue 1B1.prefab
+  artifactKey: Guid(6615256990dc1be40a7539deca5f8189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Statues/Female Statue 1B1.prefab using Guid(6615256990dc1be40a7539deca5f8189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeb00036367aeb8b034ef339ddaa804') in 0.042216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Statues/Female Statue 1D2.prefab
+  artifactKey: Guid(ea92c4d1740897441ae1b39190ae9da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Statues/Female Statue 1D2.prefab using Guid(ea92c4d1740897441ae1b39190ae9da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97438fd8a2e9a86ca260d0a40e45bc22') in 0.042887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Statues/Female Statue 1C1.prefab
+  artifactKey: Guid(077424a7953396a448e660f8de7b8437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Statues/Female Statue 1C1.prefab using Guid(077424a7953396a448e660f8de7b8437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bfe2bd35294595868f387f8a9bdc25') in 0.041422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ancient Set - Temples/Prefabs/Statues/Female Statue 1C2.prefab
+  artifactKey: Guid(4a782dbbe6eb03e49bb7293108b9e4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ancient Set - Temples/Prefabs/Statues/Female Statue 1C2.prefab using Guid(4a782dbbe6eb03e49bb7293108b9e4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053d7784186631c73cb5aee088c7fec2') in 0.043739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
