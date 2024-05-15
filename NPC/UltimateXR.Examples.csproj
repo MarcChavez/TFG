@@ -64,23 +64,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Lab\GeneratorDoor.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Lab\Battery.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Lab\Laser.LaserBurn.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Lab\Laser.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Lab\Lamp.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Doors\HandScanner.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Weapons\MagAmmoIndicator.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Doors\ArmoredDoor.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Lab\LightBulb.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Lab\BatteryAnchor.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\GlobalLogic.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Doors\AutomaticDoor.cs" />
-    <Compile Include="Assets\UltimateXR\Examples\FullScene\Scripts\Lab\SpringOnRelease.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Lab\SpringOnRelease.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Lab\Laser.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Lab\Laser.LaserBurn.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\GlobalLogic.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Doors\ArmoredDoor.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Doors\AutomaticDoor.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Lab\BatteryAnchor.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Lab\Lamp.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Lab\Battery.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Doors\HandScanner.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Weapons\MagAmmoIndicator.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Lab\GeneratorDoor.cs" />
+    <Compile Include="Assets\External\UltimateXR\Examples\FullScene\Scripts\Lab\LightBulb.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\UltimateXR\Examples\UltimateXR.Examples.asmdef" />
-    <None Include="Assets\UltimateXR\Examples\FullScene\Shaders\MagAmmoIndicator.shader" />
+    <None Include="Assets\External\UltimateXR\Examples\UltimateXR.Examples.asmdef" />
+    <None Include="Assets\External\UltimateXR\Examples\FullScene\Shaders\MagAmmoIndicator.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
