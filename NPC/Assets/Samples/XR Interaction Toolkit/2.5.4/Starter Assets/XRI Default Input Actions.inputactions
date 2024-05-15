@@ -2471,7 +2471,7 @@
                     "name": "",
                     "id": "fea81b99-07f5-426a-beba-5e0832c14855",
                     "path": "<TouchscreenGestureInputController>/tapStartPosition",
-                    "interactions": "Tap",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Tap Start Position",
@@ -2603,48 +2603,48 @@
         },
         {
             "name": "TFG",
-            "id": "3fafa466-18b5-49a6-8280-49a003b40841",
+            "id": "505a21e6-b20a-44d6-b425-baf860c2d07a",
             "actions": [
                 {
-                    "name": "AppearStick",
+                    "name": "Avatar Take Photo",
                     "type": "Button",
-                    "id": "03cfd84f-29a3-463e-bdbb-010f82505cf2",
+                    "id": "06b1ac60-4bad-4d89-98ab-cb63d52dde4b",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "TakePhoto",
+                    "name": "NPC Take Photo",
                     "type": "Button",
-                    "id": "f1bc5a15-4841-47c2-b7f3-c1609a05d080",
+                    "id": "19c48cc1-4dd2-42b0-afac-1fcf10c57e97",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "SelfieMode",
+                    "name": "Change Mode",
                     "type": "Button",
-                    "id": "f6ba1313-6c08-49cc-9919-256598ec09b4",
+                    "id": "00119f57-03e6-4302-9dfa-3ce031d46fb4",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "InteractNPC",
+                    "name": "Toggle",
                     "type": "Button",
-                    "id": "6d47c202-6442-42bf-af4d-958d419a7fb4",
+                    "id": "d26d14a9-b521-4f29-bca8-33ce76494fc5",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "NPCTakeSelfie",
+                    "name": "Interact With NPC",
                     "type": "Button",
-                    "id": "3fa480f5-19ea-4ea0-b4d0-305e26809823",
+                    "id": "8756278e-8b18-41c3-870d-ca5b4f299d48",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -2654,56 +2654,56 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "f5ac30c2-7975-4b2e-bff8-2ca701c65f6f",
-                    "path": "<XRController>{RightHand}/primaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "AppearStick",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "daf84127-9ab1-46d8-ad20-c119ef9dd6b3",
+                    "id": "6b748233-0f2a-478b-afb0-090565e201e6",
                     "path": "<XRController>{RightHand}/triggerPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "TakePhoto",
+                    "action": "Avatar Take Photo",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "bf9c7e6d-0ee4-4458-9675-eaf373fea33c",
-                    "path": "<XRController>{RightHand}/gripPressed",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SelfieMode",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "04cf9b7f-d896-41af-af38-920b2f68a263",
-                    "path": "<XRController>{LeftHand}/primaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "InteractNPC",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "cce37063-827c-453d-95a3-e726ff7cfee4",
+                    "id": "06032993-6349-4ec7-852e-83d7aff04037",
                     "path": "<XRController>{LeftHand}/triggerPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "NPCTakeSelfie",
+                    "action": "NPC Take Photo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2554110b-570c-4684-92de-28982d18515f",
+                    "path": "<XRController>{RightHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Change Mode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c139b762-ec1e-49e7-aef5-975d6992a64c",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8185385b-d3b8-4f9e-8d33-a35f09724633",
+                    "path": "<XRController>{LeftHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact With NPC",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

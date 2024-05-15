@@ -55,6 +55,8 @@ public class CameraManager : MonoBehaviour
         }
     }
 
+
+
     private void takePhotoFromNPC(InputAction.CallbackContext callbackContext) {
         if (allowNpcPhoto)
         {
