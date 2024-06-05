@@ -8,11 +8,9 @@ public class PlayerInteract : MonoBehaviour
 {
 
     // Update is called once per frame
-    public UnityEvent onEnterRange;
-    public UnityEvent onExitRange;
-    public Collider collider1 = null;
-    private bool intercated = false;
-
+    public bool intercated = false;
+    private bool characterClose = false;
+    public NpcInteract closestNPC = null;
     public InputActionReference interactWithNPC = null;
     
     private void Awake() {
@@ -30,26 +28,30 @@ public class PlayerInteract : MonoBehaviour
 
     void Update()
     {
+        List<NpcInteract> interactList = new List<NpcInteract>();
         float interactRange = 1f;
         Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
         foreach (Collider collider in colliderArray) {
             if (collider.TryGetComponent(out NpcInteract npcInteract)) {
-                NPCLogic(npcInteract, collider);
+                interactList.Add(npcInteract);
+                npcInteract.StopInteractWithPlayer(); 
+                npcInteract.showUI(false);
+                npcInteract.ImNotCloseToPlayer();
             }      
         }
-    }
 
-    public NpcInteract GetInteractObject() {
-        List<NpcInteract> interactList = new List<NpcInteract>();
-        float interactRange = 1f;
-            Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
-            foreach (Collider collider in colliderArray) {
-                if (collider.TryGetComponent(out NpcInteract npcInteract)) {
-                    interactList.Add(npcInteract);
-                }
+        if (interactList.Count == 0)
+        {
+            if (closestNPC != null && !intercated)
+            {
+                closestNPC.StopInteractWithPlayer(); 
+                closestNPC.showUI(false);
+                closestNPC.ImNotCloseToPlayer();
+                closestNPC = null;
             }
+        }
 
-            NpcInteract closestNPC = null;
+        else {
             foreach (NpcInteract npcInteract in interactList) {
                 if (closestNPC == null) {
                     closestNPC = npcInteract;
@@ -61,17 +63,20 @@ public class PlayerInteract : MonoBehaviour
                 }
             }
 
-            return closestNPC;
+            NPCLogic(closestNPC);
+            
+        }
     }
 
-    private void NPCLogic(NpcInteract npcInteract, Collider collider){
+    private void NPCLogic(NpcInteract npcInteract){
+            npcInteract.ImCloseToPlayer();
+            npcInteract.showUI(true);
             if (intercated){
-                onEnterRange.Invoke();
-                npcInteract.interactWithPlayer(transform);
+                
+                npcInteract.TakePhoto();
             }
             else {
-                onExitRange.Invoke();
-                npcInteract.StopInteractWithPlayer();
+                npcInteract.lookAtCharacter(npcInteract.transform);
             }   
     }
 

@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
  
-public class WalkPatrol : MonoBehaviour
+public class WanderingNPC : MonoBehaviour
 {
- 
-    public Animator aiAnim; 
-    public Transform[] points;
+     public Transform[] points;
     public bool WpReached;
+    public bool isMoving = true;
      
     private void Start() {
         int destPoint = Random.Range(0, points.Length);
@@ -32,9 +31,25 @@ public class WalkPatrol : MonoBehaviour
         agent.destination = points[destPoint].position;
     }
  
+    public void MoveController(bool move) {
+        isMoving = move;
+
+        // Actualiza el movimiento de todos los agentes
+        foreach (Transform child in transform)
+        {
+            NavMeshAgent agent = child.GetComponent<NavMeshAgent>();
+            if (agent != null)
+            {
+                agent.isStopped = !move; // Detiene o reanuda el movimiento
+            }
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
+        if (!isMoving) return; // Si no está en movimiento, no hacer nada en Update
+
         int destPoint = Random.Range(0, points.Length);
         foreach (Transform child in transform)
         {

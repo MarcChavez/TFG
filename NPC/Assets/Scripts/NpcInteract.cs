@@ -6,18 +6,25 @@ using UnityEngine;
 public class NpcInteract : MonoBehaviour
 {
     private Animator animator;
-    public Transform objeto1;
+    public Transform playerToLookAt;
     private bool lookingAtCharacter = false;
     public GameObject phone;
+    public GameObject UIObject;
+    private WanderingNPC wanderingScript;
+    private AimAtCharacter aimAtCharacter;
+    public CameraManager cameraManager;
 
     private void Awake() {
         animator = GetComponent<Animator>();
+        wanderingScript = GetComponentInParent<WanderingNPC>();
+        aimAtCharacter = GetComponentInParent<AimAtCharacter>();
         phone.SetActive(false);
+        UIObject.SetActive(false);
     }
 
     private void Update() {
         if (lookingAtCharacter) {
-            Vector3 direccion = objeto1.position - transform.position;
+            Vector3 direccion = playerToLookAt.position - transform.position;
             direccion.y = 0; // Elimina la componente Y
 
             // Rota para mirar hacia el objetivo
@@ -29,23 +36,45 @@ public class NpcInteract : MonoBehaviour
         }
     }
 
-    public void showPhone() {
-        phone.SetActive(true);
+    public void showUI(bool show) {
+        UIObject.SetActive(show);
     }
 
-    public void interactWithPlayer(Transform player){
-        objeto1 = player;
+    public void TakePhoto(){
+        animator.SetTrigger("TakeCamera");
+        animator.ResetTrigger("Walk");
+        animator.ResetTrigger("LookAtPlayer");
+        phone.SetActive(true);
         lookingAtCharacter = true;
-        animator.SetTrigger("Nod");
-        animator.ResetTrigger("Idle");
+        wanderingScript.MoveController(false);
+    }
+
+    public void ImCloseToPlayer() {
+        aimAtCharacter.ActivarMultiAimConstraints();
+        cameraManager.allowNpcCamera();
+    }
+
+    public void ImNotCloseToPlayer() {
+        aimAtCharacter.DesactivarMultiAimConstraints();
+        cameraManager.quitNpcCamera();
+    }
+
+    public void lookAtCharacter(Transform player) {
+        lookingAtCharacter = true;
+        wanderingScript.MoveController(false);
+        animator.SetTrigger("LookAtPlayer");
+        animator.ResetTrigger("TakeCamera");
+        animator.ResetTrigger("Walk");
+        phone.SetActive(false);
     }
 
     public void StopInteractWithPlayer(){
-        objeto1 = null;
-        phone.SetActive(false);
         lookingAtCharacter = false;
-        animator.SetTrigger("Idle");
-        animator.ResetTrigger("Nod");
+        animator.SetTrigger("Walk");
+        animator.ResetTrigger("TakeCamera");
+        animator.ResetTrigger("LookAtPlayer");
+        wanderingScript.MoveController(true);
+        phone.SetActive(false);
     }
 
 }

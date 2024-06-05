@@ -8,20 +8,16 @@ public class AimAtCharacter : MonoBehaviour
         RigBuilder rigBuilder = GetComponent<RigBuilder>();
 
         rigBuilder.enabled = false;
-
-        FindObjectOfType<PlayerInteract>().onEnterRange.AddListener(ActivarMultiAimConstraints);
-
-        FindObjectOfType<PlayerInteract>().onExitRange.AddListener(DesactivarMultiAimConstraints);
     }
 
-    private void ActivarMultiAimConstraints()
+    public void ActivarMultiAimConstraints()
     {
         RigBuilder rigBuilder = GetComponent<RigBuilder>();
 
         rigBuilder.enabled = true;
     }
 
-    private void DesactivarMultiAimConstraints()
+    public void DesactivarMultiAimConstraints()
     {
         RigBuilder rigBuilder = GetComponent<RigBuilder>();
 
