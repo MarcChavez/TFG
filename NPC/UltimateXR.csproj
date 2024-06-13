@@ -294,8 +294,8 @@
     <Compile Include="Assets\External\UltimateXR\Scripts\Devices\Integrations\HTC\UxrHtcViveInput.cs" />
     <Compile Include="Assets\External\UltimateXR\Scripts\Core\Components\Composite\UxrAvatarComponent.cs" />
     <Compile Include="Assets\External\UltimateXR\Scripts\Extensions\Unity\Render\RendererExt.cs" />
-    <Compile Include="Assets\External\UltimateXR\Scripts\Rendering\FX\UxrPlanarReflectionBrp.cs" />
     <Compile Include="Assets\External\UltimateXR\Scripts\Core\UxrTransform.cs" />
+    <Compile Include="Assets\External\UltimateXR\Scripts\Rendering\FX\UxrPlanarReflectionBrp.cs" />
     <Compile Include="Assets\External\UltimateXR\Scripts\Animation\Splines\UxrSpline.cs" />
     <Compile Include="Assets\External\UltimateXR\Scripts\Guides\UxrCompassDisplayMode.cs" />
     <Compile Include="Assets\External\UltimateXR\Scripts\Manipulation\UxrGrabManager.GrabbableObjectAnchorInfo.cs" />

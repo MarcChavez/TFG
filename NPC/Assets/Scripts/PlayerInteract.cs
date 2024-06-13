@@ -70,13 +70,14 @@ public class PlayerInteract : MonoBehaviour
 
     private void NPCLogic(NpcInteract npcInteract){
             npcInteract.ImCloseToPlayer();
+            npcInteract.stopAllGroup(transform);
             npcInteract.showUI(true);
             if (intercated){
                 
                 npcInteract.TakePhoto();
             }
             else {
-                npcInteract.lookAtCharacter(npcInteract.transform);
+                npcInteract.lookAtCharacter(transform);
             }   
     }
 

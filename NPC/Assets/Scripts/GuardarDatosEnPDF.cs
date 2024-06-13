@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using System;
+using UnityEngine.Events;
 
 public class GuardarDatosEnPDF : MonoBehaviour
 {
@@ -11,35 +13,55 @@ public class GuardarDatosEnPDF : MonoBehaviour
         public Vector3 posicion;
         public Vector3 rotacion;
         public string timestamp;
+        public string action;
+        public string photoName;
     }
 
     private List<Registro> registros = new List<Registro>();
-    private float tiempoEntreCapturas = 1f; // Intervalo de tiempo entre cada captura (en segundos)
+    private String id;
+    public UnityEvent <Vector3, Quaternion> eventTP;
+    public UnityEvent <string, string> eventPhoto;
+    public string NAME = "test";
 
     void Start()
     {
         // Comenzar la captura de datos
-        StartCoroutine(CapturarDatos());
+        eventTP.AddListener(CapturarDatos);
+        eventPhoto.AddListener(CapturarPhoto);
+       if (name ==  "test") id =  PlayerPrefs.GetString("userId");
+       else {
+        id = NAME;
+       }
     }
 
-    IEnumerator CapturarDatos()
+    public void CapturarDatos(Vector3 pos,Quaternion rotate)
     {
-        while (true)
-        {
             // Crear registros
             Registro nuevoRegistro = new Registro
             {
-                posicion = transform.position,
-                rotacion = transform.eulerAngles,
-                timestamp = System.DateTime.Now.ToString()
+                posicion = pos,
+                rotacion = rotate.eulerAngles,
+                timestamp = System.DateTime.Now.ToString(),
+                action = "Teleport"
+            };
+            Debug.Log("aaa");
+
+            // Agregar el registro a la lista
+            registros.Add(nuevoRegistro);
+    }
+
+    public void CapturarPhoto(string name, string takenBy)
+    {
+            // Crear registros
+            Registro nuevoRegistro = new Registro
+            {
+                timestamp = System.DateTime.Now.ToString(),
+                action = "Photo_taken_by_"+takenBy,
+                photoName = name
             };
 
             // Agregar el registro a la lista
             registros.Add(nuevoRegistro);
-
-            // Esperar el tiempo especificado antes de la próxima captura
-            yield return new WaitForSeconds(tiempoEntreCapturas);
-        }
     }
 
     private void OnDestroy()
@@ -55,11 +77,17 @@ public class GuardarDatosEnPDF : MonoBehaviour
         // Convertir la lista de registros a formato JSON
         string json = JsonUtility.ToJson(new Wrapper(datos));
 
+        if (id == "") id = "unnamed";
+
         // Especificar la ruta del archivo JSON donde se guardarán los datos
-        string rutaArchivo = Application.dataPath + "/datos.json";
+        string rutaArchivo = Application.dataPath + "/Data/"+id;
+        string nombreArchivo = Application.dataPath + "/Data/"+id+"/datos.json";
+        if (!Directory.Exists(rutaArchivo)){
+            Directory.CreateDirectory(rutaArchivo);
+            }
 
         // Escribir el JSON en el archivo
-        File.WriteAllText(rutaArchivo, json);
+        File.WriteAllText(nombreArchivo, json);
     }
 
     // Clase de envoltura para evitar la serialización incorrecta de la lista de registros

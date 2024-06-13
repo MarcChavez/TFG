@@ -2,24 +2,41 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class NpcInteract : MonoBehaviour
 {
     private Animator animator;
-    public Transform playerToLookAt;
+    private Transform playerToLookAt;
+    public Transform playerToLookAtM;
+    public Transform playerToLookAtF;
     private bool lookingAtCharacter = false;
     public GameObject phone;
     public GameObject UIObject;
-    private WanderingNPC wanderingScript;
+    private NavMeshAgent agent;
     private AimAtCharacter aimAtCharacter;
-    public CameraManager cameraManager;
+    private CameraManager cameraManager;
+    public CameraManager cameraManagerF;
+    public CameraManager cameraManagerM;
+    public UnityEvent<Transform> imCloseToPlayer;
+    public UnityEvent imFarFromPlayer;
 
     private void Awake() {
         animator = GetComponent<Animator>();
-        wanderingScript = GetComponentInParent<WanderingNPC>();
+        agent = GetComponent<NavMeshAgent>();
         aimAtCharacter = GetComponentInParent<AimAtCharacter>();
         phone.SetActive(false);
         UIObject.SetActive(false);
+        int gender = PlayerPrefs.GetInt("gender");
+        if (gender == 1) {
+            playerToLookAt = playerToLookAtF;
+            cameraManager = cameraManagerF;
+        }
+        else{
+            playerToLookAt = playerToLookAtM;
+            cameraManager = cameraManagerM;
+        }
     }
 
     private void Update() {
@@ -36,6 +53,25 @@ public class NpcInteract : MonoBehaviour
         }
     }
 
+    private void Start() {
+        if (imCloseToPlayer == null)
+        {
+            imCloseToPlayer = new UnityEvent<Transform>();
+        }
+        if (imFarFromPlayer == null)
+        {
+            imFarFromPlayer = new UnityEvent();
+        }
+    }
+
+    public void stopAllGroup(Transform player) {
+          imCloseToPlayer.Invoke(player);
+    }
+
+    public void moveAllGroup() {
+        imFarFromPlayer.Invoke();
+    }
+
     public void showUI(bool show) {
         UIObject.SetActive(show);
     }
@@ -46,7 +82,7 @@ public class NpcInteract : MonoBehaviour
         animator.ResetTrigger("LookAtPlayer");
         phone.SetActive(true);
         lookingAtCharacter = true;
-        wanderingScript.MoveController(false);
+        agent.isStopped = true;
     }
 
     public void ImCloseToPlayer() {
@@ -61,7 +97,7 @@ public class NpcInteract : MonoBehaviour
 
     public void lookAtCharacter(Transform player) {
         lookingAtCharacter = true;
-        wanderingScript.MoveController(false);
+        agent.isStopped = true;
         animator.SetTrigger("LookAtPlayer");
         animator.ResetTrigger("TakeCamera");
         animator.ResetTrigger("Walk");
@@ -73,7 +109,7 @@ public class NpcInteract : MonoBehaviour
         animator.SetTrigger("Walk");
         animator.ResetTrigger("TakeCamera");
         animator.ResetTrigger("LookAtPlayer");
-        wanderingScript.MoveController(true);
+        agent.isStopped = false;
         phone.SetActive(false);
     }
 

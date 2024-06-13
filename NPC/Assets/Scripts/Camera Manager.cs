@@ -25,12 +25,24 @@ public class CameraManager : MonoBehaviour
     private bool allowNpcPhoto = false;
     private bool isProcessingPhoto = false; 
     private AudioSource audioSource;
+    public GameObject selfieStick;
+    public GameObject Camera;
+    public GameObject Screen;
+    public bool selfieMode = false;
+    private String id;
+    public GuardarDatosEnPDF guardarDatosEnPDF;
+    public bool guardaPhotosAvaliable = false;
+    public string NAME;
     
     private void Awake() {
         audioSource = gameObject.GetComponent<AudioSource>();
         takePhotoReference.action.started += TakePhoto;
         takePhotoNPC.action.started += takePhotoFromNPC;
         changeModeReference.action.started += ChangeMode;
+        if (name ==  "test") id =  PlayerPrefs.GetString("userId");
+       else {
+        id = NAME;
+       }
     }
 
     public void allowNpcCamera(){
@@ -49,21 +61,26 @@ public class CameraManager : MonoBehaviour
     }
 
     private void ChangeMode(InputAction.CallbackContext callbackContext){
-       if (gameObject.transform.parent.gameObject.transform.parent.gameObject.activeSelf)
+       if (selfieStick.activeSelf)
         {
             Debug.Log("Change");
-            gameObject.transform.Rotate(180.0f, 0.0f,180.0f, Space.Self);
+            Camera.transform.Rotate(180.0f, 0.0f,180.0f, Space.Self);
+            selfieMode = !selfieMode;
+            Screen.transform.localScale = new Vector3(-Screen.transform.localScale.x, Screen.transform.localScale.y, Screen.transform.localScale.z);
         } 
     }
 
     private void TakePhoto(InputAction.CallbackContext callbackContext) {
          if (isProcessingPhoto) return;
         
-        if (gameObject.transform.parent.gameObject.transform.parent.gameObject.activeSelf && !audioSource.isPlaying)
+        if (selfieStick.activeSelf && !audioSource.isPlaying)
         {
             isProcessingPhoto = true;
             PlayPhotoSound();
-            ExportPhoto(MainCamara);
+            if (guardaPhotosAvaliable) {
+                string nameP = ExportPhoto(MainCamara);
+                guardarDatosEnPDF.eventPhoto.Invoke(nameP, "User");
+            }
             isProcessingPhoto = false;
         }
         else{
@@ -80,8 +97,11 @@ public class CameraManager : MonoBehaviour
         {
             isProcessingPhoto = true;
             PlayPhotoSound();
-            ExportPhoto(NpcCamera);
             isProcessingPhoto = false;
+            if (guardaPhotosAvaliable) {
+                string nameP = ExportPhoto(NpcCamera);
+                guardarDatosEnPDF.eventPhoto.Invoke(nameP, "NPC");
+            }
         }
         else{
             Debug.Log("Toggle Selfie");
@@ -90,9 +110,9 @@ public class CameraManager : MonoBehaviour
 
 	// return file name
 
-    private void ExportPhoto(RenderTexture overviewTexture) {
+    private string ExportPhoto(RenderTexture overviewTexture) {
         Texture2D texture = toTexture2D(overviewTexture);
-        var dirPath = Application.dataPath+"/Photos";
+        var dirPath = Application.dataPath+"/Photos/"+id;
         DateTime now = DateTime.Now;
         string nombreFoto = "photo_" + now.ToString("dd_MM-HH_mm_ss") + ".png";
         RegistroImagenes nuevoRegistro = new RegistroImagenes
@@ -102,6 +122,7 @@ public class CameraManager : MonoBehaviour
                 photoName = nombreFoto
         };
         registros.Add(nuevoRegistro);
+        return nombreFoto;
     }
 
     private void guardaPhotos() {

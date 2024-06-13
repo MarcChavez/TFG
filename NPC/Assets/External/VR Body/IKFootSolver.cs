@@ -36,9 +36,16 @@ public class IKFootSolver : MonoBehaviour
         lerp = 1;
     }
 
+    public void StartAgain(){
+        footSpacing = transform.localPosition.x;
+        currentPosition = newPosition = oldPosition = transform.position;
+        currentNormal = newNormal = oldNormal = transform.up;
+        lerp = 1;
+    }
+
     // Update is called once per frame
 
-    void Update()
+    /*void Update()
     {
         transform.position = currentPosition + Vector3.up * footYPosOffset;
         transform.localRotation = Quaternion.Euler(footRotOffset);
@@ -100,7 +107,7 @@ public class IKFootSolver : MonoBehaviour
     public bool IsMoving()
     {
         return lerp < 1;
-    }
+    }*/
 
 
 

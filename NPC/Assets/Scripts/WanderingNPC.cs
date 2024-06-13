@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
- 
+using UnityEngine.Events;
+
 public class WanderingNPC : MonoBehaviour
 {
      public Transform[] points;
     public bool WpReached;
     public bool isMoving = true;
+    
      
     private void Start() {
         int destPoint = Random.Range(0, points.Length);
