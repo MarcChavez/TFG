@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 99a4a7173eef98c42a948a330329d62c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cliff Piece 1A1
+    100002: Cliff Piece 1A2
+    100004: Cliff Piece 1A3
+    100006: Cliff Piece 1A4
+    100008: Cliff Piece 1A5
+    100010: Cliff Piece 1B1
+    100012: Cliff Piece 1B2
+    100014: Cliff Piece 1B3
+    100016: Cliff Piece 1B4
+    100018: Cliff Piece 1B5
+    100020: Cliff Piece 1C1
+    100022: Cliff Piece 1C2
+    100024: Cliff Piece 1C3
+    100026: Cliff Piece 1C4
+    100028: Cliff Piece 1C5
+    100030: //RootNode
+    400000: Cliff Piece 1A1
+    400002: Cliff Piece 1A2
+    400004: Cliff Piece 1A3
+    400006: Cliff Piece 1A4
+    400008: Cliff Piece 1A5
+    400010: Cliff Piece 1B1
+    400012: Cliff Piece 1B2
+    400014: Cliff Piece 1B3
+    400016: Cliff Piece 1B4
+    400018: Cliff Piece 1B5
+    400020: Cliff Piece 1C1
+    400022: Cliff Piece 1C2
+    400024: Cliff Piece 1C3
+    400026: Cliff Piece 1C4
+    400028: Cliff Piece 1C5
+    400030: //RootNode
+    2100000: Cliff 1B
+    2100002: Cliff 1C
+    2100004: Cliff 1A
+    2300000: Cliff Piece 1A1
+    2300002: Cliff Piece 1A2
+    2300004: Cliff Piece 1A3
+    2300006: Cliff Piece 1A4
+    2300008: Cliff Piece 1A5
+    2300010: Cliff Piece 1B1
+    2300012: Cliff Piece 1B2
+    2300014: Cliff Piece 1B3
+    2300016: Cliff Piece 1B4
+    2300018: Cliff Piece 1B5
+    2300020: Cliff Piece 1C1
+    2300022: Cliff Piece 1C2
+    2300024: Cliff Piece 1C3
+    2300026: Cliff Piece 1C4
+    2300028: Cliff Piece 1C5
+    3300000: Cliff Piece 1A1
+    3300002: Cliff Piece 1A2
+    3300004: Cliff Piece 1A3
+    3300006: Cliff Piece 1A4
+    3300008: Cliff Piece 1A5
+    3300010: Cliff Piece 1B1
+    3300012: Cliff Piece 1B2
+    3300014: Cliff Piece 1B3
+    3300016: Cliff Piece 1B4
+    3300018: Cliff Piece 1B5
+    3300020: Cliff Piece 1C1
+    3300022: Cliff Piece 1C2
+    3300024: Cliff Piece 1C3
+    3300026: Cliff Piece 1C4
+    3300028: Cliff Piece 1C5
+    4300000: Cliff Piece 1B1
+    4300002: Cliff Piece 1C1
+    4300004: Cliff Piece 1A1
+    4300006: Cliff Piece 1C3
+    4300008: Cliff Piece 1B3
+    4300010: Cliff Piece 1A3
+    4300012: Cliff Piece 1A2
+    4300014: Cliff Piece 1C2
+    4300016: Cliff Piece 1B2
+    4300018: Cliff Piece 1B4
+    4300020: Cliff Piece 1C4
+    4300022: Cliff Piece 1A4
+    4300024: Cliff Piece 1A5
+    4300026: Cliff Piece 1B5
+    4300028: Cliff Piece 1C5
+    6400000: Cliff Piece 1A1
+    6400002: Cliff Piece 1A2
+    6400004: Cliff Piece 1A3
+    6400006: Cliff Piece 1A4
+    6400008: Cliff Piece 1A5
+    6400010: Cliff Piece 1B1
+    6400012: Cliff Piece 1B2
+    6400014: Cliff Piece 1B3
+    6400016: Cliff Piece 1B4
+    6400018: Cliff Piece 1B5
+    6400020: Cliff Piece 1C1
+    6400022: Cliff Piece 1C2
+    6400024: Cliff Piece 1C3
+    6400026: Cliff Piece 1C4
+    6400028: Cliff Piece 1C5
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cliff 1A
+    second: {fileID: 2100000, guid: 8f0c3413aac8ac14ca640dc23366185e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cliff 1B
+    second: {fileID: 2100000, guid: 3609c82ecfb1d9949a509892b099c614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cliff 1C
+    second: {fileID: 2100000, guid: 8f432bec0a23e6040892985151c57c53, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

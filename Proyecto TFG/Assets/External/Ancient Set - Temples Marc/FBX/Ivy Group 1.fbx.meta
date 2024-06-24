@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 7cb333651ba24b84fb39ccb225c62f84
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ivy Group 1A
+    100004: Ivy Group 1B
+    100006: Ivy Group 1C
+    100008: Ivy Group 1D
+    100010: Cube.137
+    100012: Cube.140
+    100014: Cube.142
+    100016: Cube.144
+    100018: Ivy Group 1
+    100020: Ivy Group 2
+    100022: Ivy Group 3
+    100024: Ivy Group 4
+    100026: Ivy Group 5
+    100028: Ivy Group 6
+    100030: Ivy Group 7
+    100032: Ivy Group 8
+    400000: //RootNode
+    400002: Ivy Group 1A
+    400004: Ivy Group 1B
+    400006: Ivy Group 1C
+    400008: Ivy Group 1D
+    400010: Cube.137
+    400012: Cube.140
+    400014: Cube.142
+    400016: Cube.144
+    400018: Ivy Group 1
+    400020: Ivy Group 2
+    400022: Ivy Group 3
+    400024: Ivy Group 4
+    400026: Ivy Group 5
+    400028: Ivy Group 6
+    400030: Ivy Group 7
+    400032: Ivy Group 8
+    2100000: Ivy Stem 1A
+    2100002: Ivy 1A
+    2300000: Ivy Group 1A
+    2300002: Ivy Group 1B
+    2300004: Ivy Group 1C
+    2300006: Ivy Group 1D
+    2300008: Cube.137
+    2300010: Cube.140
+    2300012: Cube.142
+    2300014: Cube.144
+    2300016: Ivy Group 1
+    2300018: Ivy Group 2
+    2300020: Ivy Group 3
+    2300022: Ivy Group 4
+    2300024: Ivy Group 5
+    2300026: Ivy Group 6
+    2300028: Ivy Group 7
+    2300030: Ivy Group 8
+    3300000: Ivy Group 1A
+    3300002: Ivy Group 1B
+    3300004: Ivy Group 1C
+    3300006: Ivy Group 1D
+    3300008: Cube.137
+    3300010: Cube.140
+    3300012: Cube.142
+    3300014: Cube.144
+    3300016: Ivy Group 1
+    3300018: Ivy Group 2
+    3300020: Ivy Group 3
+    3300022: Ivy Group 4
+    3300024: Ivy Group 5
+    3300026: Ivy Group 6
+    3300028: Ivy Group 7
+    3300030: Ivy Group 8
+    4300000: Ivy Group 1A
+    4300002: Ivy Group 1B
+    4300004: Ivy Group 1D
+    4300006: Ivy Group 1C
+    4300008: Cube.137
+    4300010: Cube.140
+    4300012: Cube.142
+    4300014: Cube.144
+    4300016: Ivy Group 3
+    4300018: Ivy Group 1
+    4300020: Ivy Group 2
+    4300022: Ivy Group 4
+    4300024: Ivy Group 5
+    4300026: Ivy Group 6
+    4300028: Ivy Group 7
+    4300030: Ivy Group 8
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ivy 1A
+    second: {fileID: 2100000, guid: 6e424c0ae431fe9439992fd75850e94d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ivy Stem 1A
+    second: {fileID: 2100000, guid: 7746ccb2ccd33e640889c31d9c120843, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

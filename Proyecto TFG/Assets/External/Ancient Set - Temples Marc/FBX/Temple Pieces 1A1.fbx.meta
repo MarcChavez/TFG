@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: 76efce643f3873046bf482ec5dcf2a60
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bottom Attachment 1A1
+    100002: Bottom Attachment 1A2
+    100004: Bottom Attachment 1A3
+    100006: Bottom Attachment 1A4
+    100008: Bottom Attachment 1A5
+    100010: Bottom Attachment 1A6
+    100012: Bottom Attachment 1A7
+    100014: Doorway Stairs 1A1
+    100016: Old Stone Railing 1A1
+    100018: Old Stone Railing Post 1A1
+    100020: Round Pillar 1A1
+    100022: Round Pillar 1A2
+    100024: Round Pillar 1A3
+    100026: Round Pillar 1A4
+    100028: Round Pillar 1B1
+    100030: Round Pillar 1B2
+    100032: Round Pillar 1B3
+    100034: Round Pillar 1B4
+    100036: Round Pillar 1C1
+    100038: Round Pillar 1C2
+    100040: Round Pillar 1C3
+    100042: Round Pillar 1C4
+    100044: Round Pillar 1D1
+    100046: Round Pillar 1D2
+    100048: Round Pillar 1D3
+    100050: Round Pillar 1D4
+    100052: Stairs 1A1
+    100054: Stairs 1A2
+    100056: Stairs Platform Walls 1A1
+    100058: Stairs Platform Walls 1A2
+    100060: Stairs Platform Walls 1A3
+    100062: Stairs Platform Walls 1B1
+    100064: Stairs Platform Walls 1B2
+    100066: //RootNode
+    100068: Top Attachment 1A1
+    100070: Top Attachment 1A2
+    100072: Top Attachment 1A3
+    100074: Top Attachment 1A4
+    100076: Top Attachment 1A5
+    100078: Top Attachment 1A6
+    100080: Top Attachment 1A7
+    100082: Wall 1A1
+    100084: Wall Doorway 1A1
+    100086: Wall Short 1A1
+    100088: Wall Window 1A1
+    100090: Wall Window 1B1
+    100092: Wall Window 1B2
+    100094: Wall Window 1B3
+    400000: Bottom Attachment 1A1
+    400002: Bottom Attachment 1A2
+    400004: Bottom Attachment 1A3
+    400006: Bottom Attachment 1A4
+    400008: Bottom Attachment 1A5
+    400010: Bottom Attachment 1A6
+    400012: Bottom Attachment 1A7
+    400014: Doorway Stairs 1A1
+    400016: Old Stone Railing 1A1
+    400018: Old Stone Railing Post 1A1
+    400020: Round Pillar 1A1
+    400022: Round Pillar 1A2
+    400024: Round Pillar 1A3
+    400026: Round Pillar 1A4
+    400028: Round Pillar 1B1
+    400030: Round Pillar 1B2
+    400032: Round Pillar 1B3
+    400034: Round Pillar 1B4
+    400036: Round Pillar 1C1
+    400038: Round Pillar 1C2
+    400040: Round Pillar 1C3
+    400042: Round Pillar 1C4
+    400044: Round Pillar 1D1
+    400046: Round Pillar 1D2
+    400048: Round Pillar 1D3
+    400050: Round Pillar 1D4
+    400052: Stairs 1A1
+    400054: Stairs 1A2
+    400056: Stairs Platform Walls 1A1
+    400058: Stairs Platform Walls 1A2
+    400060: Stairs Platform Walls 1A3
+    400062: Stairs Platform Walls 1B1
+    400064: Stairs Platform Walls 1B2
+    400066: //RootNode
+    400068: Top Attachment 1A1
+    400070: Top Attachment 1A2
+    400072: Top Attachment 1A3
+    400074: Top Attachment 1A4
+    400076: Top Attachment 1A5
+    400078: Top Attachment 1A6
+    400080: Top Attachment 1A7
+    400082: Wall 1A1
+    400084: Wall Doorway 1A1
+    400086: Wall Short 1A1
+    400088: Wall Window 1A1
+    400090: Wall Window 1B1
+    400092: Wall Window 1B2
+    400094: Wall Window 1B3
+    2100000: Temple Pieces 1A1
+    2100002: Round Pillars 1A1
+    2300000: Bottom Attachment 1A1
+    2300002: Bottom Attachment 1A2
+    2300004: Bottom Attachment 1A3
+    2300006: Bottom Attachment 1A4
+    2300008: Bottom Attachment 1A5
+    2300010: Bottom Attachment 1A6
+    2300012: Bottom Attachment 1A7
+    2300014: Doorway Stairs 1A1
+    2300016: Old Stone Railing 1A1
+    2300018: Old Stone Railing Post 1A1
+    2300020: Round Pillar 1A1
+    2300022: Round Pillar 1A2
+    2300024: Round Pillar 1A3
+    2300026: Round Pillar 1A4
+    2300028: Round Pillar 1B1
+    2300030: Round Pillar 1B2
+    2300032: Round Pillar 1B3
+    2300034: Round Pillar 1B4
+    2300036: Round Pillar 1C1
+    2300038: Round Pillar 1C2
+    2300040: Round Pillar 1C3
+    2300042: Round Pillar 1C4
+    2300044: Round Pillar 1D1
+    2300046: Round Pillar 1D2
+    2300048: Round Pillar 1D3
+    2300050: Round Pillar 1D4
+    2300052: Stairs 1A1
+    2300054: Stairs 1A2
+    2300056: Stairs Platform Walls 1A1
+    2300058: Stairs Platform Walls 1A2
+    2300060: Stairs Platform Walls 1A3
+    2300062: Stairs Platform Walls 1B1
+    2300064: Stairs Platform Walls 1B2
+    2300066: Top Attachment 1A1
+    2300068: Top Attachment 1A2
+    2300070: Top Attachment 1A3
+    2300072: Top Attachment 1A4
+    2300074: Top Attachment 1A5
+    2300076: Top Attachment 1A6
+    2300078: Top Attachment 1A7
+    2300080: Wall 1A1
+    2300082: Wall Doorway 1A1
+    2300084: Wall Short 1A1
+    2300086: Wall Window 1A1
+    2300088: Wall Window 1B1
+    2300090: Wall Window 1B2
+    2300092: Wall Window 1B3
+    3300000: Bottom Attachment 1A1
+    3300002: Bottom Attachment 1A2
+    3300004: Bottom Attachment 1A3
+    3300006: Bottom Attachment 1A4
+    3300008: Bottom Attachment 1A5
+    3300010: Bottom Attachment 1A6
+    3300012: Bottom Attachment 1A7
+    3300014: Doorway Stairs 1A1
+    3300016: Old Stone Railing 1A1
+    3300018: Old Stone Railing Post 1A1
+    3300020: Round Pillar 1A1
+    3300022: Round Pillar 1A2
+    3300024: Round Pillar 1A3
+    3300026: Round Pillar 1A4
+    3300028: Round Pillar 1B1
+    3300030: Round Pillar 1B2
+    3300032: Round Pillar 1B3
+    3300034: Round Pillar 1B4
+    3300036: Round Pillar 1C1
+    3300038: Round Pillar 1C2
+    3300040: Round Pillar 1C3
+    3300042: Round Pillar 1C4
+    3300044: Round Pillar 1D1
+    3300046: Round Pillar 1D2
+    3300048: Round Pillar 1D3
+    3300050: Round Pillar 1D4
+    3300052: Stairs 1A1
+    3300054: Stairs 1A2
+    3300056: Stairs Platform Walls 1A1
+    3300058: Stairs Platform Walls 1A2
+    3300060: Stairs Platform Walls 1A3
+    3300062: Stairs Platform Walls 1B1
+    3300064: Stairs Platform Walls 1B2
+    3300066: Top Attachment 1A1
+    3300068: Top Attachment 1A2
+    3300070: Top Attachment 1A3
+    3300072: Top Attachment 1A4
+    3300074: Top Attachment 1A5
+    3300076: Top Attachment 1A6
+    3300078: Top Attachment 1A7
+    3300080: Wall 1A1
+    3300082: Wall Doorway 1A1
+    3300084: Wall Short 1A1
+    3300086: Wall Window 1A1
+    3300088: Wall Window 1B1
+    3300090: Wall Window 1B2
+    3300092: Wall Window 1B3
+    4300000: Stairs 1A1
+    4300002: Stairs Platform Walls 1B1
+    4300004: Stairs Platform Walls 1A1
+    4300006: Stairs Platform Walls 1B2
+    4300008: Stairs Platform Walls 1A2
+    4300010: Stairs 1A2
+    4300012: Stairs Platform Walls 1A3
+    4300014: Round Pillar 1B2
+    4300016: Round Pillar 1A2
+    4300018: Round Pillar 1C2
+    4300020: Round Pillar 1D2
+    4300022: Round Pillar 1B3
+    4300024: Round Pillar 1A3
+    4300026: Round Pillar 1C3
+    4300028: Round Pillar 1D3
+    4300030: Round Pillar 1B1
+    4300032: Round Pillar 1A1
+    4300034: Round Pillar 1C1
+    4300036: Round Pillar 1D1
+    4300038: Bottom Attachment 1A1
+    4300040: Bottom Attachment 1A2
+    4300042: Bottom Attachment 1A3
+    4300044: Bottom Attachment 1A4
+    4300046: Bottom Attachment 1A5
+    4300048: Bottom Attachment 1A6
+    4300050: Bottom Attachment 1A7
+    4300052: Top Attachment 1A1
+    4300054: Top Attachment 1A2
+    4300056: Top Attachment 1A3
+    4300058: Top Attachment 1A4
+    4300060: Top Attachment 1A5
+    4300062: Top Attachment 1A6
+    4300064: Top Attachment 1A7
+    4300066: Round Pillar 1B4
+    4300068: Round Pillar 1A4
+    4300070: Round Pillar 1C4
+    4300072: Round Pillar 1D4
+    4300074: Wall Doorway 1A1
+    4300076: Wall 1A1
+    4300078: Wall Window 1A1
+    4300080: Wall Short 1A1
+    4300082: Wall Window 1B3
+    4300084: Wall Window 1B2
+    4300086: Wall Window 1B1
+    4300088: Old Stone Railing 1A1
+    4300090: Old Stone Railing Post 1A1
+    4300092: Doorway Stairs 1A1
+    6400000: Bottom Attachment 1A1
+    6400002: Bottom Attachment 1A2
+    6400004: Bottom Attachment 1A3
+    6400006: Bottom Attachment 1A4
+    6400008: Bottom Attachment 1A5
+    6400010: Bottom Attachment 1A6
+    6400012: Bottom Attachment 1A7
+    6400014: Doorway Stairs 1A1
+    6400016: Old Stone Railing 1A1
+    6400018: Old Stone Railing Post 1A1
+    6400020: Round Pillar 1A1
+    6400022: Round Pillar 1A2
+    6400024: Round Pillar 1A3
+    6400026: Round Pillar 1A4
+    6400028: Round Pillar 1B1
+    6400030: Round Pillar 1B2
+    6400032: Round Pillar 1B3
+    6400034: Round Pillar 1B4
+    6400036: Round Pillar 1C1
+    6400038: Round Pillar 1C2
+    6400040: Round Pillar 1C3
+    6400042: Round Pillar 1C4
+    6400044: Round Pillar 1D1
+    6400046: Round Pillar 1D2
+    6400048: Round Pillar 1D3
+    6400050: Round Pillar 1D4
+    6400052: Stairs 1A1
+    6400054: Stairs 1A2
+    6400056: Stairs Platform Walls 1A1
+    6400058: Stairs Platform Walls 1A2
+    6400060: Stairs Platform Walls 1A3
+    6400062: Stairs Platform Walls 1B1
+    6400064: Stairs Platform Walls 1B2
+    6400066: Top Attachment 1A1
+    6400068: Top Attachment 1A2
+    6400070: Top Attachment 1A3
+    6400072: Top Attachment 1A4
+    6400074: Top Attachment 1A5
+    6400076: Top Attachment 1A6
+    6400078: Top Attachment 1A7
+    6400080: Wall 1A1
+    6400082: Wall Doorway 1A1
+    6400084: Wall Short 1A1
+    6400086: Wall Window 1A1
+    6400088: Wall Window 1B1
+    6400090: Wall Window 1B2
+    6400092: Wall Window 1B3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Round Pillars 1A1
+    second: {fileID: 2100000, guid: 884b11ea921386743924bf91875365e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Temple Pieces 1A1
+    second: {fileID: 2100000, guid: 4da401c2cdd56a74e9128ed663d64a4b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 86a6f6526659e67478df620363594c3d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Floor Block 1A1
+    100002: Floor Block 1A2
+    100004: Floor Block 1B1
+    100006: Floor Block 1B2
+    100008: Floor Block 1B3
+    100010: Floor Block 1B4
+    100012: Floor Block 1B5
+    100014: Floor Block 1C1
+    100016: Floor Block 1C2
+    100018: Short Wall 1A1
+    100020: Short Wall 1A2
+    100022: Short Wall 1A3
+    100024: Short Wall 1A4
+    100026: Short Wall 1A5
+    100028: Short Wall 1A6
+    100030: Short Wall 1B1
+    100032: Short Wall 1B2
+    100034: Short Wall 1B3
+    100036: Short Wall 1C1
+    100038: Short Wall 1C2
+    100040: Short Wall Divider 1A1
+    100042: Short Wall Divider 1A2
+    100044: Short Wall Divider 1A3
+    100046: Small Stairs 1A1
+    100048: Small Stairs 1B1
+    100050: Small Stone Block 1A1
+    100052: Small Stone Block 1A2
+    100054: Small Stone Block 1A3
+    100056: Small Stone Block 1A4
+    100058: Small Stone Block 1B1
+    100060: Small Stone Block 1B2
+    100062: Small Stone Block 1B3
+    100064: Stairs 1A1
+    100066: Stairs 1B1
+    100068: Stone Block 1A1
+    100070: Stone Block 1A2
+    100072: Stone Block 1A3
+    100074: Stone Block 1A4
+    100076: Stone Block 1B1
+    100078: Stone Block 1B2
+    100080: Stone Block 1B3
+    100082: Stone Block 1C1
+    100084: Stone Block 1C2
+    100086: Stone Block 1C3
+    100088: Stone Block 1C4
+    100090: Stone Block 1C5
+    100092: Stone Block 1C6
+    100094: Stone Block 1C7
+    100096: Stone Block 1C8
+    100098: Stone Block 1D1
+    100100: Stone Block 1D2
+    100102: Stone Block 1D3
+    100104: Stone Block 1D4
+    100106: Stone Pillar 1A1
+    100108: Stone Pillar 1B1
+    100110: Stone Pillar 1B2
+    100112: Stone Pillar 1C1
+    100114: Stone Pillar 1C2
+    100116: Stone Pillar 1D1
+    100118: Stone Pillar 1D2
+    100120: Stone Pillar Large 1A1
+    100122: Stone Pillar Large 1A2
+    100124: Stone Pillar Large 1A3
+    100126: Stone Pillar Unique 1A1
+    100128: Stone Pillar Unique 1A2
+    100130: //RootNode
+    400000: Floor Block 1A1
+    400002: Floor Block 1A2
+    400004: Floor Block 1B1
+    400006: Floor Block 1B2
+    400008: Floor Block 1B3
+    400010: Floor Block 1B4
+    400012: Floor Block 1B5
+    400014: Floor Block 1C1
+    400016: Floor Block 1C2
+    400018: Short Wall 1A1
+    400020: Short Wall 1A2
+    400022: Short Wall 1A3
+    400024: Short Wall 1A4
+    400026: Short Wall 1A5
+    400028: Short Wall 1A6
+    400030: Short Wall 1B1
+    400032: Short Wall 1B2
+    400034: Short Wall 1B3
+    400036: Short Wall 1C1
+    400038: Short Wall 1C2
+    400040: Short Wall Divider 1A1
+    400042: Short Wall Divider 1A2
+    400044: Short Wall Divider 1A3
+    400046: Small Stairs 1A1
+    400048: Small Stairs 1B1
+    400050: Small Stone Block 1A1
+    400052: Small Stone Block 1A2
+    400054: Small Stone Block 1A3
+    400056: Small Stone Block 1A4
+    400058: Small Stone Block 1B1
+    400060: Small Stone Block 1B2
+    400062: Small Stone Block 1B3
+    400064: Stairs 1A1
+    400066: Stairs 1B1
+    400068: Stone Block 1A1
+    400070: Stone Block 1A2
+    400072: Stone Block 1A3
+    400074: Stone Block 1A4
+    400076: Stone Block 1B1
+    400078: Stone Block 1B2
+    400080: Stone Block 1B3
+    400082: Stone Block 1C1
+    400084: Stone Block 1C2
+    400086: Stone Block 1C3
+    400088: Stone Block 1C4
+    400090: Stone Block 1C5
+    400092: Stone Block 1C6
+    400094: Stone Block 1C7
+    400096: Stone Block 1C8
+    400098: Stone Block 1D1
+    400100: Stone Block 1D2
+    400102: Stone Block 1D3
+    400104: Stone Block 1D4
+    400106: Stone Pillar 1A1
+    400108: Stone Pillar 1B1
+    400110: Stone Pillar 1B2
+    400112: Stone Pillar 1C1
+    400114: Stone Pillar 1C2
+    400116: Stone Pillar 1D1
+    400118: Stone Pillar 1D2
+    400120: Stone Pillar Large 1A1
+    400122: Stone Pillar Large 1A2
+    400124: Stone Pillar Large 1A3
+    400126: Stone Pillar Unique 1A1
+    400128: Stone Pillar Unique 1A2
+    400130: //RootNode
+    2100000: Stairs 1A1
+    2100002: Walls 1A1
+    2100004: Stones 1A1
+    2300000: Floor Block 1A1
+    2300002: Floor Block 1A2
+    2300004: Floor Block 1B1
+    2300006: Floor Block 1B2
+    2300008: Floor Block 1B3
+    2300010: Floor Block 1B4
+    2300012: Floor Block 1B5
+    2300014: Floor Block 1C1
+    2300016: Floor Block 1C2
+    2300018: Short Wall 1A1
+    2300020: Short Wall 1A2
+    2300022: Short Wall 1A3
+    2300024: Short Wall 1A4
+    2300026: Short Wall 1A5
+    2300028: Short Wall 1A6
+    2300030: Short Wall 1B1
+    2300032: Short Wall 1B2
+    2300034: Short Wall 1B3
+    2300036: Short Wall 1C1
+    2300038: Short Wall 1C2
+    2300040: Short Wall Divider 1A1
+    2300042: Short Wall Divider 1A2
+    2300044: Short Wall Divider 1A3
+    2300046: Small Stairs 1A1
+    2300048: Small Stairs 1B1
+    2300050: Small Stone Block 1A1
+    2300052: Small Stone Block 1A2
+    2300054: Small Stone Block 1A3
+    2300056: Small Stone Block 1A4
+    2300058: Small Stone Block 1B1
+    2300060: Small Stone Block 1B2
+    2300062: Small Stone Block 1B3
+    2300064: Stairs 1A1
+    2300066: Stairs 1B1
+    2300068: Stone Block 1A1
+    2300070: Stone Block 1A2
+    2300072: Stone Block 1A3
+    2300074: Stone Block 1A4
+    2300076: Stone Block 1B1
+    2300078: Stone Block 1B2
+    2300080: Stone Block 1B3
+    2300082: Stone Block 1C1
+    2300084: Stone Block 1C2
+    2300086: Stone Block 1C3
+    2300088: Stone Block 1C4
+    2300090: Stone Block 1C5
+    2300092: Stone Block 1C6
+    2300094: Stone Block 1C7
+    2300096: Stone Block 1C8
+    2300098: Stone Block 1D1
+    2300100: Stone Block 1D2
+    2300102: Stone Block 1D3
+    2300104: Stone Block 1D4
+    2300106: Stone Pillar 1A1
+    2300108: Stone Pillar 1B1
+    2300110: Stone Pillar 1B2
+    2300112: Stone Pillar 1C1
+    2300114: Stone Pillar 1C2
+    2300116: Stone Pillar 1D1
+    2300118: Stone Pillar 1D2
+    2300120: Stone Pillar Large 1A1
+    2300122: Stone Pillar Large 1A2
+    2300124: Stone Pillar Large 1A3
+    2300126: Stone Pillar Unique 1A1
+    2300128: Stone Pillar Unique 1A2
+    3300000: Floor Block 1A1
+    3300002: Floor Block 1A2
+    3300004: Floor Block 1B1
+    3300006: Floor Block 1B2
+    3300008: Floor Block 1B3
+    3300010: Floor Block 1B4
+    3300012: Floor Block 1B5
+    3300014: Floor Block 1C1
+    3300016: Floor Block 1C2
+    3300018: Short Wall 1A1
+    3300020: Short Wall 1A2
+    3300022: Short Wall 1A3
+    3300024: Short Wall 1A4
+    3300026: Short Wall 1A5
+    3300028: Short Wall 1A6
+    3300030: Short Wall 1B1
+    3300032: Short Wall 1B2
+    3300034: Short Wall 1B3
+    3300036: Short Wall 1C1
+    3300038: Short Wall 1C2
+    3300040: Short Wall Divider 1A1
+    3300042: Short Wall Divider 1A2
+    3300044: Short Wall Divider 1A3
+    3300046: Small Stairs 1A1
+    3300048: Small Stairs 1B1
+    3300050: Small Stone Block 1A1
+    3300052: Small Stone Block 1A2
+    3300054: Small Stone Block 1A3
+    3300056: Small Stone Block 1A4
+    3300058: Small Stone Block 1B1
+    3300060: Small Stone Block 1B2
+    3300062: Small Stone Block 1B3
+    3300064: Stairs 1A1
+    3300066: Stairs 1B1
+    3300068: Stone Block 1A1
+    3300070: Stone Block 1A2
+    3300072: Stone Block 1A3
+    3300074: Stone Block 1A4
+    3300076: Stone Block 1B1
+    3300078: Stone Block 1B2
+    3300080: Stone Block 1B3
+    3300082: Stone Block 1C1
+    3300084: Stone Block 1C2
+    3300086: Stone Block 1C3
+    3300088: Stone Block 1C4
+    3300090: Stone Block 1C5
+    3300092: Stone Block 1C6
+    3300094: Stone Block 1C7
+    3300096: Stone Block 1C8
+    3300098: Stone Block 1D1
+    3300100: Stone Block 1D2
+    3300102: Stone Block 1D3
+    3300104: Stone Block 1D4
+    3300106: Stone Pillar 1A1
+    3300108: Stone Pillar 1B1
+    3300110: Stone Pillar 1B2
+    3300112: Stone Pillar 1C1
+    3300114: Stone Pillar 1C2
+    3300116: Stone Pillar 1D1
+    3300118: Stone Pillar 1D2
+    3300120: Stone Pillar Large 1A1
+    3300122: Stone Pillar Large 1A2
+    3300124: Stone Pillar Large 1A3
+    3300126: Stone Pillar Unique 1A1
+    3300128: Stone Pillar Unique 1A2
+    4300000: Stairs 1A1
+    4300002: Stairs 1B1
+    4300004: Floor Block 1A1
+    4300006: Short Wall 1A1
+    4300008: Short Wall Divider 1A1
+    4300010: Stone Block 1C1
+    4300012: Stone Block 1C2
+    4300014: Stone Block 1C3
+    4300016: Stone Block 1C4
+    4300018: Stone Pillar Large 1A1
+    4300020: Stone Pillar 1B1
+    4300022: Stone Pillar 1C1
+    4300024: Stone Pillar Large 1A2
+    4300026: Stone Pillar Large 1A3
+    4300028: Stone Pillar 1D1
+    4300030: Stone Pillar Unique 1A1
+    4300032: Stone Pillar 1B2
+    4300034: Stone Pillar 1C2
+    4300036: Stone Pillar 1D2
+    4300038: Stone Pillar Unique 1A2
+    4300040: Floor Block 1B1
+    4300042: Floor Block 1B3
+    4300044: Floor Block 1B2
+    4300046: Stone Block 1A1
+    4300048: Stone Block 1A2
+    4300050: Stone Block 1A3
+    4300052: Stone Block 1A4
+    4300054: Small Stone Block 1A1
+    4300056: Small Stone Block 1A2
+    4300058: Small Stone Block 1A3
+    4300060: Small Stone Block 1A4
+    4300062: Small Stone Block 1B1
+    4300064: Small Stone Block 1B2
+    4300066: Small Stone Block 1B3
+    4300068: Stone Block 1B2
+    4300070: Stone Block 1B1
+    4300072: Stone Block 1B3
+    4300074: Stone Block 1D1
+    4300076: Stone Block 1D2
+    4300078: Stone Block 1D3
+    4300080: Stone Block 1D4
+    4300082: Floor Block 1A2
+    4300084: Short Wall 1A3
+    4300086: Short Wall 1C1
+    4300088: Short Wall 1B3
+    4300090: Short Wall 1B1
+    4300092: Short Wall 1B2
+    4300094: Short Wall Divider 1A2
+    4300096: Short Wall Divider 1A3
+    4300098: Short Wall 1A4
+    4300100: Short Wall 1A6
+    4300102: Floor Block 1B4
+    4300104: Floor Block 1B5
+    4300106: Small Stairs 1A1
+    4300108: Small Stairs 1B1
+    4300110: Short Wall 1C2
+    4300112: Short Wall 1A2
+    4300114: Short Wall 1A5
+    4300116: Floor Block 1C1
+    4300118: Floor Block 1C2
+    4300120: Stone Pillar 1A1
+    4300122: Stone Block 1C7
+    4300124: Stone Block 1C8
+    4300126: Stone Block 1C5
+    4300128: Stone Block 1C6
+    6400000: Floor Block 1A1
+    6400002: Floor Block 1A2
+    6400004: Floor Block 1B1
+    6400006: Floor Block 1B2
+    6400008: Floor Block 1B3
+    6400010: Floor Block 1B4
+    6400012: Floor Block 1B5
+    6400014: Floor Block 1C1
+    6400016: Floor Block 1C2
+    6400018: Short Wall 1A1
+    6400020: Short Wall 1A2
+    6400022: Short Wall 1A3
+    6400024: Short Wall 1A4
+    6400026: Short Wall 1A5
+    6400028: Short Wall 1A6
+    6400030: Short Wall 1B1
+    6400032: Short Wall 1B2
+    6400034: Short Wall 1B3
+    6400036: Short Wall 1C1
+    6400038: Short Wall 1C2
+    6400040: Short Wall Divider 1A1
+    6400042: Short Wall Divider 1A2
+    6400044: Short Wall Divider 1A3
+    6400046: Small Stairs 1A1
+    6400048: Small Stairs 1B1
+    6400050: Small Stone Block 1A1
+    6400052: Small Stone Block 1A2
+    6400054: Small Stone Block 1A3
+    6400056: Small Stone Block 1A4
+    6400058: Small Stone Block 1B1
+    6400060: Small Stone Block 1B2
+    6400062: Small Stone Block 1B3
+    6400064: Stairs 1A1
+    6400066: Stairs 1B1
+    6400068: Stone Block 1A1
+    6400070: Stone Block 1A2
+    6400072: Stone Block 1A3
+    6400074: Stone Block 1A4
+    6400076: Stone Block 1B1
+    6400078: Stone Block 1B2
+    6400080: Stone Block 1B3
+    6400082: Stone Block 1C1
+    6400084: Stone Block 1C2
+    6400086: Stone Block 1C3
+    6400088: Stone Block 1C4
+    6400090: Stone Block 1C5
+    6400092: Stone Block 1C6
+    6400094: Stone Block 1C7
+    6400096: Stone Block 1C8
+    6400098: Stone Block 1D1
+    6400100: Stone Block 1D2
+    6400102: Stone Block 1D3
+    6400104: Stone Block 1D4
+    6400106: Stone Pillar 1A1
+    6400108: Stone Pillar 1B1
+    6400110: Stone Pillar 1B2
+    6400112: Stone Pillar 1C1
+    6400114: Stone Pillar 1C2
+    6400116: Stone Pillar 1D1
+    6400118: Stone Pillar 1D2
+    6400120: Stone Pillar Large 1A1
+    6400122: Stone Pillar Large 1A2
+    6400124: Stone Pillar Large 1A3
+    6400126: Stone Pillar Unique 1A1
+    6400128: Stone Pillar Unique 1A2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs 1A1
+    second: {fileID: 2100000, guid: b2457362ca8624542901a192f87be494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stones 1A1
+    second: {fileID: 2100000, guid: 435ca5d2f5dbb2e4e9697cd2b019029a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls 1A1
+    second: {fileID: 2100000, guid: d612a7b3a163c0048ab3f05348a1e8d4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

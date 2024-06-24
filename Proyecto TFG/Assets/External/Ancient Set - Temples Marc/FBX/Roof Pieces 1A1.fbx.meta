@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: eee9f0b1aa75e98449ff812219d81150
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Roof Corner 1A1
+    100002: Roof Detail 1A1
+    100004: Roof Detail 1A2
+    100006: Roof Detail 1A3
+    100008: Roof Detail 1A4
+    100010: Roof End 1A1
+    100012: Roof End 1A2
+    100014: Roof End Extension 1A1
+    100016: Roof Middle 1A
+    100018: Roof Middle 1A1
+    100020: Roof Middle 1A3
+    100022: Roof Middle 1B1
+    100024: Roof Middle 1B2
+    100026: Roof Middle 1B3
+    100028: Roof Middle 1B4
+    100030: Roof Middle Corner 1A1
+    100032: Roof Middle Corner 1A2
+    100034: Roof Middle Corner L 1A1
+    100036: Roof Middle Corner L 1A2
+    100038: Roof Middle Corner R 1A1
+    100040: Roof Middle Corner R 1A2
+    100042: //RootNode
+    400000: Roof Corner 1A1
+    400002: Roof Detail 1A1
+    400004: Roof Detail 1A2
+    400006: Roof Detail 1A3
+    400008: Roof Detail 1A4
+    400010: Roof End 1A1
+    400012: Roof End 1A2
+    400014: Roof End Extension 1A1
+    400016: Roof Middle 1A
+    400018: Roof Middle 1A1
+    400020: Roof Middle 1A3
+    400022: Roof Middle 1B1
+    400024: Roof Middle 1B2
+    400026: Roof Middle 1B3
+    400028: Roof Middle 1B4
+    400030: Roof Middle Corner 1A1
+    400032: Roof Middle Corner 1A2
+    400034: Roof Middle Corner L 1A1
+    400036: Roof Middle Corner L 1A2
+    400038: Roof Middle Corner R 1A1
+    400040: Roof Middle Corner R 1A2
+    400042: //RootNode
+    2100000: Temple Roofing 1A1
+    2100002: Temple Roof Supply 1A1
+    2100004: Tile Floor 1A1
+    2300000: Roof Corner 1A1
+    2300002: Roof Detail 1A1
+    2300004: Roof Detail 1A2
+    2300006: Roof Detail 1A3
+    2300008: Roof Detail 1A4
+    2300010: Roof End 1A1
+    2300012: Roof End 1A2
+    2300014: Roof End Extension 1A1
+    2300016: Roof Middle 1A
+    2300018: Roof Middle 1A1
+    2300020: Roof Middle 1A3
+    2300022: Roof Middle 1B1
+    2300024: Roof Middle 1B2
+    2300026: Roof Middle 1B3
+    2300028: Roof Middle 1B4
+    2300030: Roof Middle Corner 1A1
+    2300032: Roof Middle Corner 1A2
+    2300034: Roof Middle Corner L 1A1
+    2300036: Roof Middle Corner L 1A2
+    2300038: Roof Middle Corner R 1A1
+    2300040: Roof Middle Corner R 1A2
+    3300000: Roof Corner 1A1
+    3300002: Roof Detail 1A1
+    3300004: Roof Detail 1A2
+    3300006: Roof Detail 1A3
+    3300008: Roof Detail 1A4
+    3300010: Roof End 1A1
+    3300012: Roof End 1A2
+    3300014: Roof End Extension 1A1
+    3300016: Roof Middle 1A
+    3300018: Roof Middle 1A1
+    3300020: Roof Middle 1A3
+    3300022: Roof Middle 1B1
+    3300024: Roof Middle 1B2
+    3300026: Roof Middle 1B3
+    3300028: Roof Middle 1B4
+    3300030: Roof Middle Corner 1A1
+    3300032: Roof Middle Corner 1A2
+    3300034: Roof Middle Corner L 1A1
+    3300036: Roof Middle Corner L 1A2
+    3300038: Roof Middle Corner R 1A1
+    3300040: Roof Middle Corner R 1A2
+    4300000: Roof Middle Corner 1A2
+    4300002: Roof End 1A1
+    4300004: Roof Middle Corner R 1A2
+    4300006: Roof Middle Corner L 1A2
+    4300008: Roof End 1A2
+    4300010: Roof Middle 1A
+    4300012: Roof Middle 1A3
+    4300014: Roof Middle 1B4
+    4300016: Roof Middle 1B2
+    4300018: Roof Middle 1B3
+    4300020: Roof Middle 1A1
+    4300022: Roof Detail 1A4
+    4300024: Roof Detail 1A2
+    4300026: Roof Detail 1A3
+    4300028: Roof Detail 1A1
+    4300030: Roof Middle Corner R 1A1
+    4300032: Roof Middle Corner L 1A1
+    4300034: Roof Middle Corner 1A1
+    4300036: Roof Corner 1A1
+    4300038: Roof End Extension 1A1
+    4300040: Roof Middle 1B1
+    6400000: Roof Corner 1A1
+    6400002: Roof Detail 1A1
+    6400004: Roof Detail 1A2
+    6400006: Roof Detail 1A3
+    6400008: Roof Detail 1A4
+    6400010: Roof End 1A1
+    6400012: Roof End 1A2
+    6400014: Roof End Extension 1A1
+    6400016: Roof Middle 1A
+    6400018: Roof Middle 1A1
+    6400020: Roof Middle 1A3
+    6400022: Roof Middle 1B1
+    6400024: Roof Middle 1B2
+    6400026: Roof Middle 1B3
+    6400028: Roof Middle 1B4
+    6400030: Roof Middle Corner 1A1
+    6400032: Roof Middle Corner 1A2
+    6400034: Roof Middle Corner L 1A1
+    6400036: Roof Middle Corner L 1A2
+    6400038: Roof Middle Corner R 1A1
+    6400040: Roof Middle Corner R 1A2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Temple Roof Supply 1A1
+    second: {fileID: 2100000, guid: 9ed086213efdf674bb705a088a6bd4fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Temple Roofing 1A1
+    second: {fileID: 2100000, guid: f766e0dbff7b18d48805630a150133c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile Floor 1A1
+    second: {fileID: 2100000, guid: 8385fba3159a5aa40b5fe17ea4cc76f3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

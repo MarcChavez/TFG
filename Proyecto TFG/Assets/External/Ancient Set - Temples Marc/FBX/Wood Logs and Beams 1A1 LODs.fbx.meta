@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: 2ee79aa760cc8514ea850b294837020b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Wood Beam 1A1.002
+    100002: Wood Beam 1A2.002
+    100004: Wood Beam 1A3.002
+    100006: Wood Beam 1B1.001
+    100008: Wood Beam 1B2.001
+    100010: Wood Beam 1B3.001
+    100012: Wood Beam Curved 1A1.001
+    100014: Wood Beam Curved 1A2.001
+    100016: Wood Beam Curved 1A3.001
+    100018: Wood Log 1A1.001
+    100020: Wood Log 1A2.001
+    100022: Wood Log 1A3.001
+    100024: Wood Log 1A4.001
+    100026: Wood Log 1A5.001
+    100028: Wood Log Curved 1A1.001
+    100030: Wood Log Curved 1A2.001
+    100032: Wood Log Curved Small 1A1.001
+    100034: Wood Log Curved Small 1A2.001
+    100036: Wood Log Curved Small 1A3.001
+    100038: Wood Log Small 1A1.001
+    100040: Wood Log Small 1A2.001
+    100042: Wood Log Small 1A3.001
+    100044: Wood Log Small 1A4.001
+    100046: Wood Log Small 1A5.001
+    100048: Wood Log Thin 1A1.001
+    100050: Wood Log Thin 1A2.001
+    100052: Wood Log Thin 1A3.001
+    100054: Wood Log Thin 1A4.001
+    100056: Wood Log Thin 1A5.001
+    100058: //RootNode
+    100060: Wood Plank 1A1.001
+    100062: Wood Plank 1A2.001
+    100064: Wood Plank 1A3.001
+    100066: Wood Plank 1A4.001
+    100068: Wood Plank 1A5.001
+    100070: Wood Plank 1A6.001
+    100072: Wood Plank 1B1.001
+    100074: Wood Plank 1B2.001
+    100076: Wood Plank 1B3.001
+    100078: Wood Plank 1B4.001
+    100080: Wood Plank 1B5.001
+    100082: Wood Plank 1B6.001
+    400000: Wood Beam 1A1.002
+    400002: Wood Beam 1A2.002
+    400004: Wood Beam 1A3.002
+    400006: Wood Beam 1B1.001
+    400008: Wood Beam 1B2.001
+    400010: Wood Beam 1B3.001
+    400012: Wood Beam Curved 1A1.001
+    400014: Wood Beam Curved 1A2.001
+    400016: Wood Beam Curved 1A3.001
+    400018: Wood Log 1A1.001
+    400020: Wood Log 1A2.001
+    400022: Wood Log 1A3.001
+    400024: Wood Log 1A4.001
+    400026: Wood Log 1A5.001
+    400028: Wood Log Curved 1A1.001
+    400030: Wood Log Curved 1A2.001
+    400032: Wood Log Curved Small 1A1.001
+    400034: Wood Log Curved Small 1A2.001
+    400036: Wood Log Curved Small 1A3.001
+    400038: Wood Log Small 1A1.001
+    400040: Wood Log Small 1A2.001
+    400042: Wood Log Small 1A3.001
+    400044: Wood Log Small 1A4.001
+    400046: Wood Log Small 1A5.001
+    400048: Wood Log Thin 1A1.001
+    400050: Wood Log Thin 1A2.001
+    400052: Wood Log Thin 1A3.001
+    400054: Wood Log Thin 1A4.001
+    400056: Wood Log Thin 1A5.001
+    400058: //RootNode
+    400060: Wood Plank 1A1.001
+    400062: Wood Plank 1A2.001
+    400064: Wood Plank 1A3.001
+    400066: Wood Plank 1A4.001
+    400068: Wood Plank 1A5.001
+    400070: Wood Plank 1A6.001
+    400072: Wood Plank 1B1.001
+    400074: Wood Plank 1B2.001
+    400076: Wood Plank 1B3.001
+    400078: Wood Plank 1B4.001
+    400080: Wood Plank 1B5.001
+    400082: Wood Plank 1B6.001
+    2100000: Wood Planks 1A1
+    2300000: Wood Beam 1A1.002
+    2300002: Wood Beam 1A2.002
+    2300004: Wood Beam 1A3.002
+    2300006: Wood Beam 1B1.001
+    2300008: Wood Beam 1B2.001
+    2300010: Wood Beam 1B3.001
+    2300012: Wood Beam Curved 1A1.001
+    2300014: Wood Beam Curved 1A2.001
+    2300016: Wood Beam Curved 1A3.001
+    2300018: Wood Log 1A1.001
+    2300020: Wood Log 1A2.001
+    2300022: Wood Log 1A3.001
+    2300024: Wood Log 1A4.001
+    2300026: Wood Log 1A5.001
+    2300028: Wood Log Curved 1A1.001
+    2300030: Wood Log Curved 1A2.001
+    2300032: Wood Log Curved Small 1A1.001
+    2300034: Wood Log Curved Small 1A2.001
+    2300036: Wood Log Curved Small 1A3.001
+    2300038: Wood Log Small 1A1.001
+    2300040: Wood Log Small 1A2.001
+    2300042: Wood Log Small 1A3.001
+    2300044: Wood Log Small 1A4.001
+    2300046: Wood Log Small 1A5.001
+    2300048: Wood Log Thin 1A1.001
+    2300050: Wood Log Thin 1A2.001
+    2300052: Wood Log Thin 1A3.001
+    2300054: Wood Log Thin 1A4.001
+    2300056: Wood Log Thin 1A5.001
+    2300058: Wood Plank 1A1.001
+    2300060: Wood Plank 1A2.001
+    2300062: Wood Plank 1A3.001
+    2300064: Wood Plank 1A4.001
+    2300066: Wood Plank 1A5.001
+    2300068: Wood Plank 1A6.001
+    2300070: Wood Plank 1B1.001
+    2300072: Wood Plank 1B2.001
+    2300074: Wood Plank 1B3.001
+    2300076: Wood Plank 1B4.001
+    2300078: Wood Plank 1B5.001
+    2300080: Wood Plank 1B6.001
+    3300000: Wood Beam 1A1.002
+    3300002: Wood Beam 1A2.002
+    3300004: Wood Beam 1A3.002
+    3300006: Wood Beam 1B1.001
+    3300008: Wood Beam 1B2.001
+    3300010: Wood Beam 1B3.001
+    3300012: Wood Beam Curved 1A1.001
+    3300014: Wood Beam Curved 1A2.001
+    3300016: Wood Beam Curved 1A3.001
+    3300018: Wood Log 1A1.001
+    3300020: Wood Log 1A2.001
+    3300022: Wood Log 1A3.001
+    3300024: Wood Log 1A4.001
+    3300026: Wood Log 1A5.001
+    3300028: Wood Log Curved 1A1.001
+    3300030: Wood Log Curved 1A2.001
+    3300032: Wood Log Curved Small 1A1.001
+    3300034: Wood Log Curved Small 1A2.001
+    3300036: Wood Log Curved Small 1A3.001
+    3300038: Wood Log Small 1A1.001
+    3300040: Wood Log Small 1A2.001
+    3300042: Wood Log Small 1A3.001
+    3300044: Wood Log Small 1A4.001
+    3300046: Wood Log Small 1A5.001
+    3300048: Wood Log Thin 1A1.001
+    3300050: Wood Log Thin 1A2.001
+    3300052: Wood Log Thin 1A3.001
+    3300054: Wood Log Thin 1A4.001
+    3300056: Wood Log Thin 1A5.001
+    3300058: Wood Plank 1A1.001
+    3300060: Wood Plank 1A2.001
+    3300062: Wood Plank 1A3.001
+    3300064: Wood Plank 1A4.001
+    3300066: Wood Plank 1A5.001
+    3300068: Wood Plank 1A6.001
+    3300070: Wood Plank 1B1.001
+    3300072: Wood Plank 1B2.001
+    3300074: Wood Plank 1B3.001
+    3300076: Wood Plank 1B4.001
+    3300078: Wood Plank 1B5.001
+    3300080: Wood Plank 1B6.001
+    4300000: Wood Plank 1A1.001
+    4300002: Wood Plank 1A3.001
+    4300004: Wood Plank 1A5.001
+    4300006: Wood Plank 1A2.001
+    4300008: Wood Plank 1A4.001
+    4300010: Wood Plank 1A6.001
+    4300012: Wood Plank 1B6.001
+    4300014: Wood Plank 1B4.001
+    4300016: Wood Plank 1B2.001
+    4300018: Wood Plank 1B5.001
+    4300020: Wood Plank 1B3.001
+    4300022: Wood Plank 1B1.001
+    4300024: Wood Beam 1A1.002
+    4300026: Wood Beam 1A2.002
+    4300028: Wood Beam 1A3.002
+    4300030: Wood Beam 1B1.001
+    4300032: Wood Beam 1B2.001
+    4300034: Wood Beam 1B3.001
+    4300036: Wood Log 1A1.001
+    4300038: Wood Log 1A3.001
+    4300040: Wood Log 1A5.001
+    4300042: Wood Log 1A4.001
+    4300044: Wood Log 1A2.001
+    4300046: Wood Log Small 1A5.001
+    4300048: Wood Log Small 1A3.001
+    4300050: Wood Log Small 1A1.001
+    4300052: Wood Log Small 1A2.001
+    4300054: Wood Log Small 1A4.001
+    4300056: Wood Log Curved Small 1A1.001
+    4300058: Wood Log Curved Small 1A2.001
+    4300060: Wood Log Curved Small 1A3.001
+    4300062: Wood Log Curved 1A1.001
+    4300064: Wood Log Curved 1A2.001
+    4300066: Wood Beam Curved 1A1.001
+    4300068: Wood Beam Curved 1A2.001
+    4300070: Wood Beam Curved 1A3.001
+    4300072: Wood Log Thin 1A1.001
+    4300074: Wood Log Thin 1A3.001
+    4300076: Wood Log Thin 1A5.001
+    4300078: Wood Log Thin 1A4.001
+    4300080: Wood Log Thin 1A2.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Planks 1A1
+    second: {fileID: 2100000, guid: 9b957af8e2304aa4794d47aa48a74941, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

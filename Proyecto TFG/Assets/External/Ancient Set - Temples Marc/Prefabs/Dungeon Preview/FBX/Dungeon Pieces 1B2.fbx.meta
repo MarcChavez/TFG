@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: b6c5ad00550e11948a0b699f3bdfac78
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Curved Ceiling 1A
+    100002: Curved Ceiling 1B
+    100004: Curved Ceiling Side 1A
+    100006: Curved Ceiling Side 1B
+    100008: Dungeon Archway Corner Piece 1A
+    100010: Dungeon Archway Corner Piece 1A LOD 1
+    100012: Dungeon Archway Corner Piece 1B
+    100014: Dungeon Archway Corner Piece 1B LOD 1
+    100016: Dungeon Archway Corner Piece 1C
+    100018: Dungeon Archway Corner Piece 1C LOD 1
+    100020: Dungeon Archway Cover 1A
+    100022: //RootNode
+    100024: Dungeon Pillar Half 1A
+    100026: Dungeon Pillar Half 1A LOD 1
+    100028: Vault Ceiling 1A
+    100030: Vault Ceiling 1B
+    100032: Vault Ceiling Corner Piece 1A
+    100034: Vault Ceiling Corner Piece 1B
+    400000: Curved Ceiling 1A
+    400002: Curved Ceiling 1B
+    400004: Curved Ceiling Side 1A
+    400006: Curved Ceiling Side 1B
+    400008: Dungeon Archway Corner Piece 1A
+    400010: Dungeon Archway Corner Piece 1A LOD 1
+    400012: Dungeon Archway Corner Piece 1B
+    400014: Dungeon Archway Corner Piece 1B LOD 1
+    400016: Dungeon Archway Corner Piece 1C
+    400018: Dungeon Archway Corner Piece 1C LOD 1
+    400020: Dungeon Archway Cover 1A
+    400022: //RootNode
+    400024: Dungeon Pillar Half 1A
+    400026: Dungeon Pillar Half 1A LOD 1
+    400028: Vault Ceiling 1A
+    400030: Vault Ceiling 1B
+    400032: Vault Ceiling Corner Piece 1A
+    400034: Vault Ceiling Corner Piece 1B
+    2100000: Dungeon Pillars 1A1
+    2100002: Dungeon Wall 1A1
+    2100004: Dungeon Tile 1A1
+    2300000: Curved Ceiling 1A
+    2300002: Curved Ceiling 1B
+    2300004: Curved Ceiling Side 1A
+    2300006: Curved Ceiling Side 1B
+    2300008: Dungeon Archway Corner Piece 1A
+    2300010: Dungeon Archway Corner Piece 1A LOD 1
+    2300012: Dungeon Archway Corner Piece 1B
+    2300014: Dungeon Archway Corner Piece 1B LOD 1
+    2300016: Dungeon Archway Corner Piece 1C
+    2300018: Dungeon Archway Corner Piece 1C LOD 1
+    2300020: Dungeon Archway Cover 1A
+    2300022: Dungeon Pillar Half 1A
+    2300024: Dungeon Pillar Half 1A LOD 1
+    2300026: Vault Ceiling 1A
+    2300028: Vault Ceiling 1B
+    2300030: Vault Ceiling Corner Piece 1A
+    2300032: Vault Ceiling Corner Piece 1B
+    3300000: Curved Ceiling 1A
+    3300002: Curved Ceiling 1B
+    3300004: Curved Ceiling Side 1A
+    3300006: Curved Ceiling Side 1B
+    3300008: Dungeon Archway Corner Piece 1A
+    3300010: Dungeon Archway Corner Piece 1A LOD 1
+    3300012: Dungeon Archway Corner Piece 1B
+    3300014: Dungeon Archway Corner Piece 1B LOD 1
+    3300016: Dungeon Archway Corner Piece 1C
+    3300018: Dungeon Archway Corner Piece 1C LOD 1
+    3300020: Dungeon Archway Cover 1A
+    3300022: Dungeon Pillar Half 1A
+    3300024: Dungeon Pillar Half 1A LOD 1
+    3300026: Vault Ceiling 1A
+    3300028: Vault Ceiling 1B
+    3300030: Vault Ceiling Corner Piece 1A
+    3300032: Vault Ceiling Corner Piece 1B
+    4300000: Dungeon Archway Corner Piece 1C
+    4300002: Dungeon Archway Corner Piece 1B
+    4300004: Dungeon Archway Corner Piece 1A
+    4300006: Dungeon Pillar Half 1A
+    4300008: Dungeon Archway Cover 1A
+    4300010: Curved Ceiling Side 1B
+    4300012: Curved Ceiling Side 1A
+    4300014: Curved Ceiling 1A
+    4300016: Curved Ceiling 1B
+    4300018: Vault Ceiling 1B
+    4300020: Vault Ceiling 1A
+    4300022: Vault Ceiling Corner Piece 1A
+    4300024: Vault Ceiling Corner Piece 1B
+    4300026: Dungeon Archway Corner Piece 1C LOD 1
+    4300028: Dungeon Archway Corner Piece 1B LOD 1
+    4300030: Dungeon Archway Corner Piece 1A LOD 1
+    4300032: Dungeon Pillar Half 1A LOD 1
+    6400000: Curved Ceiling 1A
+    6400002: Curved Ceiling 1B
+    6400004: Curved Ceiling Side 1A
+    6400006: Curved Ceiling Side 1B
+    6400008: Dungeon Archway Corner Piece 1A
+    6400010: Dungeon Archway Corner Piece 1A LOD 1
+    6400012: Dungeon Archway Corner Piece 1B
+    6400014: Dungeon Archway Corner Piece 1B LOD 1
+    6400016: Dungeon Archway Corner Piece 1C
+    6400018: Dungeon Archway Corner Piece 1C LOD 1
+    6400020: Dungeon Archway Cover 1A
+    6400022: Dungeon Pillar Half 1A
+    6400024: Dungeon Pillar Half 1A LOD 1
+    6400026: Vault Ceiling 1A
+    6400028: Vault Ceiling 1B
+    6400030: Vault Ceiling Corner Piece 1A
+    6400032: Vault Ceiling Corner Piece 1B
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dungeon Pillars 1A1
+    second: {fileID: 2100000, guid: f1d7ea49e4864784396e477f9e8d6258, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dungeon Tile 1A1
+    second: {fileID: 2100000, guid: b3d031a66b356124eb669c3e21d28db3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dungeon Wall 1A1
+    second: {fileID: 2100000, guid: e54dd8821e67c3046a4e93c93d94285d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
